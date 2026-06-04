@@ -1,0 +1,309 @@
+/* ==========================================
+   RESET & BASE STYLES
+   ========================================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: radial-gradient(circle at center, #0c1446 0%, #03071e 80%, #000000 100%);
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Memungkinkan scroll jika layar terlalu pendek */
+    position: relative;
+}
+
+/* Canvas Kembang Api */
+#canvas-kembang-api {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+    z-index: 5;
+}
+
+/* Container Utama Responsif */
+.game-container {
+    display: flex;
+    width: 100%;
+    max-width: 1050px;
+    min-height: 550px;
+    height: auto;
+    background: rgba(2, 6, 23, 0.9);
+    border: 3px solid #243b55;
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(0, 180, 216, 0.25);
+    overflow: hidden;
+    z-index: 10;
+}
+
+/* ==========================================
+   AREA UTAMA GAME (KIRI)
+   ========================================== */
+.main-area {
+    flex: 3;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #1f3a60;
+    padding-bottom: 15px;
+    gap: 10px;
+}
+
+.header h2 {
+    font-size: 1.4rem;
+    color: #00b4d8;
+    text-shadow: 0 0 10px rgba(0, 180, 216, 0.5);
+    font-weight: 700;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+
+/* Gaya Teks Nominal Hadiah di Atas */
+.current-prize-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff9f1c;
+    background: rgba(255, 159, 28, 0.1);
+    padding: 6px 15px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 159, 28, 0.3);
+    text-shadow: 0 0 8px rgba(255, 159, 28, 0.4);
+    text-align: center;
+}
+
+/* Tombol Bantuan */
+.lifelines button {
+    background: linear-gradient(145deg, #102a43, #0b1d33);
+    border: 2px solid #00b4d8;
+    color: #ffffff;
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 180, 216, 0.3);
+}
+
+.lifelines button:hover:not(:disabled) {
+    background: #00b4d8;
+    color: #03071e;
+    box-shadow: 0 0 20px #00b4d8;
+}
+
+/* STYLE AREA AYAT PENYEMANGAT */
+.ayat-box {
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px dashed #1f3a60;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    font-style: italic;
+    font-size: 0.95rem;
+    color: #94a3b8;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.ayat-referensi {
+    font-style: normal;
+    font-weight: bold;
+    color: #00b4d8;
+    margin-top: 5px;
+    font-size: 0.85rem;
+}
+
+/* DESAIN KOTAK PERTANYAAN & PILIHAN */
+.quiz-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#teks-pertanyaan {
+    background: linear-gradient(90deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+    color: #ffffff;
+    padding: 20px 30px;
+    font-size: 1.15rem;
+    text-align: center;
+    border-left: 4px solid #00b4d8;
+    border-right: 4px solid #00b4d8;
+    position: relative;
+    clip-path: polygon(2% 0%, 98% 0%, 100% 50%, 98% 100%, 2% 100%, 0% 50%);
+}
+
+.pilihan-kontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.btn-pilihan {
+    background: linear-gradient(90deg, #0f172a 0%, #1e293b 100%);
+    color: #ffffff;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1rem;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+    clip-path: polygon(3% 0%, 97% 0%, 100% 50%, 97% 100%, 3% 100%, 0% 50%);
+    border-left: 3px solid #1f3a60;
+    border-right: 3px solid #1f3a60;
+    transition: all 0.2s ease;
+    display: flex;
+    gap: 8px;
+}
+
+.label-huruf { color: #ff9f1c; font-weight: bold; }
+.btn-pilihan:hover:not(:disabled) { background: linear-gradient(90deg, #ff9f1c 0%, #ffbf69 100%); color: #000; font-weight: bold;}
+.btn-pilihan:hover:not(:disabled) .label-huruf { color: #000; }
+.btn-pilihan.terpilih { background: linear-gradient(90deg, #ff9f1c 0%, #ffbf69 100%) !important; color: #000 !important; font-weight: bold;}
+.btn-pilihan.terpilih .label-huruf { color: #000 !important; }
+
+.btn-pilihan.terhapus-5050 .teks-opsi { visibility: hidden; }
+.btn-pilihan.terhapus-5050 { cursor: default; pointer-events: none; }
+
+/* Animasi Status Benar/Salah */
+.btn-pilihan.benar-kedip { animation: kedipHijau 0.4s ease-in-out infinite alternate; color: white !important; }
+.btn-pilihan.benar-kedip .label-huruf { color: white !important; }
+@keyframes kedipHijau { 0% { background: #2ec4b6; } 100% { background: #020617; } }
+
+.btn-pilihan.salah-kedip { animation: kedipMerah 0.4s ease-in-out infinite alternate; color: white !important; }
+.btn-pilihan.salah-kedip .label-huruf { color: white !important; }
+@keyframes kedipMerah { 0% { background: #e63946; } 100% { background: #020617; } }
+
+/* ==========================================
+   PANEL TANGGA HADIAH (KANAN)
+   ========================================== */
+.money-tree {
+    flex: 1;
+    background: #020617;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 3px solid #243b55;
+}
+
+.hadiah-item {
+    padding: 2px 10px;
+    color: #ff9f1c;
+    font-size: 0.85rem;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hadiah-item.aman { color: #ffffff; font-weight: bold; }
+.hadiah-item.aktif {
+    background: linear-gradient(90deg, #ff9f1c, #ffbf69);
+    color: #000000 !important;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+/* ==========================================
+   MODAL & NOTIFIKASI TOAST
+   ========================================== */
+.modal {
+    display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.8); backdrop-filter: blur(4px);
+    justify-content: center; align-items: center; z-index: 1000;
+}
+.modal-content {
+    background: linear-gradient(145deg, #0f172a, #020617); border: 2px solid #00b4d8;
+    padding: 25px; border-radius: 15px; text-align: center; max-width: 400px; width: 90%;
+}
+.modal-buttons { display: flex; justify-content: space-around; gap: 15px; margin-top: 20px;}
+.btn-modal { padding: 10px 20px; font-size: 1rem; font-weight: bold; border: none; border-radius: 8px; cursor: pointer; }
+.btn-modal.ya { background: #ff9f1c; color: #000; }
+.btn-modal.tidak { background: #475569; color: #fff; }
+
+.notification-container { position: fixed; top: 20px; left: 50%; transform: translateX(-50%); z-index: 2000; display: flex; flex-direction: column; gap: 10px; width: 90%; max-width: 500px;}
+.toast { background: linear-gradient(145deg, #102a43, #0b1d33); border: 2px solid #00b4d8; color: white; padding: 12px 25px; border-radius: 30px; font-weight: bold; text-align: center; box-shadow: 0 0 20px rgba(0, 180, 216, 0.6); animation: fadeInToast 0.4s ease-out; transition: opacity 0.4s ease; }
+.toast.sukses { border-color: #2ec4b6; }
+.toast.milestone { background: linear-gradient(135deg, #d4af37, #aa7c11); border-color: #ffffff; color: #000000; font-size: 1.1rem; }
+.toast.gagal { border-color: #e63946; }
+
+@keyframes fadeInToast { from { opacity: 0; transform: translateY(-20px); } to { opacity: 1; transform: translateY(0); } }
+
+/* ==========================================
+   RESPONSIVE MEDIA QUERIES (TABLET & PHONE)
+   ========================================== */
+@media (max-width: 850px) {
+    /* Sembunyikan panel pohon uang sebelah kanan pada tablet & mobile */
+    .money-tree {
+        display: none;
+    }
+    
+    .game-container {
+        max-width: 650px;
+    }
+    
+    .pilihan-kontainer {
+        grid-template-columns: 1fr; /* Ubah pilihan menjadi 1 kolom ke bawah agar lega */
+    }
+
+    #teks-pertanyaan {
+        clip-path: none; /* Hilangkan clip path rumit di layar kecil agar teks tidak terpotong */
+        border-radius: 10px;
+    }
+
+    .btn-pilihan {
+        clip-path: none;
+        border-radius: 8px;
+        border: 2px solid #1f3a60;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 5px;
+    }
+    .main-area {
+        padding: 15px;
+    }
+    .header {
+        flex-direction: column; /* Tumpuk vertikal elemen header di HP */
+        align-items: center;
+        gap: 12px;
+    }
+    .header h2 {
+        font-size: 1.2rem;
+    }
+    .current-prize-text {
+        font-size: 1rem;
+        width: 100%;
+    }
+    #teks-pertanyaan {
+        font-size: 1rem;
+        padding: 15px;
+    }
+    .btn-pilihan {
+        font-size: 0.95rem;
+        padding: 12px 15px;
+    }
+}

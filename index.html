@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis Alkitab Millionaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="canvas-kembang-api"></canvas>
+
+    <div class="game-container">
+        <div class="main-area">
+            <div class="header">
+                <h2>Kuis Alkitab</h2>
+                <div id="hadiah-sekarang" class="current-prize-text">Hadiah: Rp 0</div>
+                <div class="lifelines">
+                    <button id="btn-5050" onclick="gunakan5050()">50 : 50</button>
+                </div>
+            </div>
+
+            <div id="area-ayat" class="ayat-box">
+                Loading ayat penyemangat...
+            </div>
+
+            <div class="quiz-box">
+                <div id="teks-pertanyaan">Memuat soal...</div>
+                
+                <div class="pilihan-kontainer">
+                    <button class="btn-pilihan" onclick="cekJawaban(this)"></button>
+                    <button class="btn-pilihan" onclick="cekJawaban(this)"></button>
+                    <button class="btn-pilihan" onclick="cekJawaban(this)"></button>
+                    <button class="btn-pilihan" onclick="cekJawaban(this)"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="money-tree" id="money-tree">
+            </div>
+    </div>
+
+    <div id="modal-konfirmasi" class="modal">
+        <div class="modal-content">
+            <h3>Apakah Anda yakin dengan jawaban ini?</h3>
+            <div class="modal-buttons">
+                <button id="btn-yakin-ya" class="btn-modal ya">Ya, Yakin</button>
+                <button id="btn-yakin-tidak" class="btn-modal tidak">Tidak, Ganti</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="container-notifikasi" class="notification-container"></div>
+
+    <script src="ayat.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

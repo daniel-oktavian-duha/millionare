@@ -40,17 +40,29 @@
             transition: transform 0.2s, box-shadow 0.2s;
             font-family: 'Segoe UI', sans-serif;
         }
-        .btn-mulai-game:hover {
+        .btn-mulai-game:hover:not(:disabled) {
             transform: scale(1.05);
             box-shadow: 0 0 30px rgba(255, 159, 28, 0.8);
+        }
+        /* Style saat tombol berubah menjadi Loading */
+        .btn-mulai-game:disabled {
+            background: #475569;
+            color: #94a3b8;
+            cursor: not-allowed;
+            box-shadow: none;
+            animation: kedipLoading 1s infinite alternate;
+        }
+        @keyframes kedipLoading {
+            0% { opacity: 0.5; }
+            100% { opacity: 1; }
         }
     </style>
 </head>
 <body>
 
     <div id="layar-mulai" class="welcome-overlay">
-        <h1>Kuis Alkitab Millionaire</h1>
-        <button class="btn-mulai-game" onclick="mulaiPermainanPertamaKali()">
+        <h1 id="judul-welcome">Kuis Alkitab Millionaire</h1>
+        <button id="btn-pemicu-utama" class="btn-mulai-game" onclick="mulaiPermainanPertamaKali()">
             MULAI GAME
         </button>
     </div>

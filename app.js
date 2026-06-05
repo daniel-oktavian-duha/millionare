@@ -159,47 +159,56 @@ function tampilkanNotifikasiAutoclose(pesan, jenis = "netral", durasi = 3000) {
 }
 
 // ==========================================
-// ENGINE SINKRONISASI DATABASE (BACKGROUND LOAD)
+// ENGINE SINKRONISASI DATABASE (DYNAMIC LOAD)
 // ==========================================
 async function ambilDataSoal() {
     try {
-        // Otomatis download pecahan di background awal web dibuka
-        const [m1, m2, s1, s2, sl1, sl2] = await Promise.all([
-            fetch('database/mudah_part1.json').then(res => res.json()),
-            fetch('database/mudah_part2.json').then(res => res.json()),
-            fetch('database/sedang_part1.json').then(res => res.json()),
-            fetch('database/sedang_part2.json').then(res => res.json()),
-            fetch('database/sulit_part1.json').then(res => res.json()),
-            fetch('database/sulit_part2.json').then(res => res.json())
+        const responseIndeks = await fetch('database/index.json');
+        const indeksFile = await responseIndeks.json();
+
+        const downloadKategori = async (listFile) => {
+            const hasilFetch = await Promise.all(listFile.map(file => fetch(file).then(res => res.json())));
+            return hasilFetch.flat();
+        };
+
+        const [soalMudah, soalSedang, soalSulit] = await Promise.all([
+            downloadKategori(indeksFile.mudah),
+            downloadKategori(indeksFile.sedang),
+            downloadKategori(indeksFile.sulit)
         ]);
 
-        bankSoal.mudah = acakArray([...m1, ...m2]);
-        bankSoal.sedang = acakArray([...s1, ...s2]);
-        bankSoal.sulit = acakArray([...sl1, ...sl2]);
+        bankSoal.mudah = acakArray([...soalMudah]);
+        bankSoal.sedang = acakArray([...soalSedang]);
+        bankSoal.sulit = acakArray([...soalSulit]);
 
         indeksSoalKategori = { mudah: 0, sedang: 0, sulit: 0 };
         buatTanggaHadiah();
 
     } catch (error) {
-        console.error("Error loading database folders:", error);
-        document.getElementById("teks-pertanyaan").innerText = "Gagal memuat pecahan database.";
+        console.error("Error loading dynamic database:", error);
+        document.getElementById("teks-pertanyaan").innerText = "Gagal memuat komponen database dynamic.";
     }
 }
 
 // ==========================================
-// SISTEM INTERAKSI AWAL (BYPASS BLOCK AUDIO)
+// SISTEM INTERAKSI & TRANSISI LOADING SCREEN
 // ==========================================
 function mulaiPermainanPertamaKali() {
-    // Hilangkan overlay start screen setelah interaksi
-    const layarMulai = document.getElementById("layar-mulai");
-    if (layarMulai) layarMulai.style.display = "none";
+    const btnUtama = document.getElementById("btn-pemicu-utama");
+    if (btnUtama) {
+        btnUtama.disabled = true;
+        btnUtama.innerText = "LOADING GAME..."; // Berubah jadi loading screen
+    }
 
-    // Suara intro sukses diputar karena dipicu event click manual user
+    // Suara jingle intro mulai berjalan bersamaan dengan loading screen
     putarSuara("begin.mp3", false, 0.8); 
     mulaiSistemAyat(); 
     
-    // Beri jeda 4 detik agar lagu intro selesai baru kuis dimulai
+    // Beri jeda 4 detik agar lagu intro selesai, baru muat soal dan hilangkan overlay
     setTimeout(() => {
+        const layarMulai = document.getElementById("layar-mulai");
+        if (layarMulai) layarMulai.style.display = "none"; // Buka halaman kuis
+        
         muatSoalBaru();
     }, 4000);
 }
@@ -360,9 +369,11 @@ function perbaruiTeksHadiahAtas() {
     }
 }
 
+// Reset Game Otomatis Memanggil Kembali Overlay Pembuka dengan Mode Loading
 function resetGame() {
     nomorPertanyaanSekarang = 1;
     bantan5050Digunakan = false;
+    
     const btn5050 = document.getElementById("btn-5050");
     if (btn5050) {
         btn5050.disabled = false; btn5050.style.opacity = "1"; btn5050.innerText = "50 : 50";
@@ -375,11 +386,22 @@ function resetGame() {
     }
     indeksSoalKategori = { mudah: 0, sedang: 0, sulit: 0 };
 
+    // Tampilkan kembali layar pembuka ke posisi depan (Loading Mode) saat game over
+    const layarMulai = document.getElementById("layar-mulai");
+    const btnUtama = document.getElementById("btn-pemicu-utama");
+    if (layarMulai && btnUtama) {
+        btnUtama.disabled = true;
+        btnUtama.innerText = "LOADING GAME...";
+        layarMulai.style.display = "flex";
+    }
+
     putarSuara("begin.mp3", false, 0.8);
+    
     setTimeout(() => {
+        if (layarMulai) layarMulai.style.display = "none"; // Hilangkan loading screen, buka kuis
         muatSoalBaru();
     }, 4000);
 }
 
-// Jalankan loading database di background dari awal
+// Jalankan loading database di background dari awal membuka web
 ambilDataSoal();

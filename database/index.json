@@ -1,0 +1,14 @@
+{
+  "mudah": [
+    "database/mudah_part1.json",
+    "database/mudah_part2.json"
+  ],
+  "sedang": [
+    "database/sedang_part1.json",
+    "database/sedang_part2.json"
+  ],
+  "sulit": [
+    "database/sulit_part1.json",
+    "database/sulit_part2.json"
+  ]
+}

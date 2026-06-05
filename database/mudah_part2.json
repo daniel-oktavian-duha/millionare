@@ -1,0 +1,502 @@
+[
+    {
+        "pertanyaan": "Hari ke berapakah Allah menciptakan matahari, bulan, dan bintang?",
+        "pilihan": ["Hari ketiga", "Hari keempat", "Hari kelima", "Hari keenam"],
+        "jawabanBenar": "Hari keempat"
+    },
+    {
+        "pertanyaan": "Hari ke berapakah Allah menciptakan manusia menurut Alkitab?",
+        "pilihan": ["Hari kelima", "Hari keenam", "Hari ketujuh", "Hari pertama"],
+        "jawabanBenar": "Hari keenam"
+    },
+    {
+        "pertanyaan": "Di manakah taman indah tempat Adam dan Hawa pertama kali tinggal?",
+        "pilihan": ["Taman Eden", "Taman Getsemani", "Taman Babel", "Taman Kanaan"],
+        "jawabanBenar": "Taman Eden"
+    },
+    {
+        "pertanyaan": "Hewan apakah yang digunakan iblis untuk menggoda Hawa agar memakan buah terlarang?",
+        "pilihan": ["Singa", "Ular", "Serigala", "Burung"],
+        "jawabanBenar": "Ular"
+    },
+    {
+        "pertanyaan": "Berapakah jumlah pintu yang ada pada bahtera besar yang dibangun oleh Nuh?",
+        "pilihan": ["Satu pintu", "Dua pintu", "Tiga pintu", "Banyak pintu"],
+        "jawabanBenar": "Satu pintu"
+    },
+    {
+        "pertanyaan": "Berapa hari lamanya hujan lebat turun mencurahkan air saat zaman air bah Nuh?",
+        "pilihan": ["7 hari 7 malam", "40 hari 40 malam", "12 hari 12 malam", "70 hari 70 malam"],
+        "jawabanBenar": "40 hari 40 malam"
+    },
+    {
+        "pertanyaan": "Burung apakah yang pertama kali dilepaskan Nuh dari bahtera untuk melihat apakah air telah surut?",
+        "pilihan": ["Burung merpati", "Burung gagak", "Burung elang", "Burung pipit"],
+        "jawabanBenar": "Burung gagak"
+    },
+    {
+        "pertanyaan": "Burung kedua apakah yang membawa sehelai daun zaitun segar kembali ke bahtera Nuh?",
+        "pilihan": ["Burung gagak", "Burung merpati", "Burung rajawali", "Burung bangau"],
+        "jawabanBenar": "Burung merpati"
+    },
+    {
+        "pertanyaan": "Ke tanah manakah Allah memerintahkan Abraham untuk pergi meninggalkan kampung halamannya?",
+        "pilihan": ["Tanah Kanaan", "Tanah Mesir", "Tanah Babel", "Tanah Midian"],
+        "jawabanBenar": "Tanah Kanaan"
+    },
+    {
+        "pertanyaan": "Siapakah nama keponakan laki-laki yang ikut mengungsi bersama Abraham?",
+        "pilihan": ["Lot", "Lamekh", "Laban", "Lazarus"],
+        "jawabanBenar": "Lot"
+    },
+    {
+        "pertanyaan": "Hewan apakah yang disediakan Allah sebagai pengganti ketika Abraham hendak mengorbankan Ishak?",
+        "pilihan": ["Domba jantan", "Lembu muda", "Burung tekukur", "Keledai"],
+        "jawabanBenar": "Domba jantan"
+    },
+    {
+        "pertanyaan": "Benda apakah yang dilihat Yakub dalam mimpinya yang ujungnya sampai ke langit dan dilewati malaikat?",
+        "pilihan": ["Tangga", "Pohon besar", "Menara", "Jembatan"],
+        "jawabanBenar": "Tangga"
+    },
+    {
+        "pertanyaan": "Nama baru apakah yang diberikan Allah kepada Yakub setelah ia menang bergulat di Pniel?",
+        "pilihan": ["Israel", "Abraham", "Efraim", "Yosua"],
+        "jawabanBenar": "Israel"
+    },
+    {
+        "pertanyaan": "Berapakah jumlah mimpi Firaun Mesir yang berhasil diartikan oleh Yusuf?",
+        "pilihan": ["1 mimpi", "2 mimpi", "3 mimpi", "7 mimpi"],
+        "jawabanBenar": "2 mimpi"
+    },
+    {
+        "pertanyaan": "Dalam mimpi Firaun, hewan apakah yang melambangkan tujuh tahun masa kelaparan?",
+        "pilihan": ["7 ekor lembu yang kurus", "7 ekor belalang", "7 ekor singa", "7 ekor domba sakitan"],
+        "jawabanBenar": "7 ekor lembu yang kurus"
+    },
+    {
+        "pertanyaan": "Siapakah nama kakak perempuan Musa yang mengawasi peti bayinya di tepi sungai Nil?",
+        "pilihan": ["Miryam", "Zipora", "Rakhil", "Marta"],
+        "jawabanBenar": "Miryam"
+    },
+    {
+        "pertanyaan": "Siapakah yang menemukan dan mengangkat bayi Musa dari dalam sungai Nil?",
+        "pilihan": ["Putri Firaun", "Istri Potifar", "Ibu Musa sendiri", "Bidan Mesir"],
+        "jawabanBenar": "Putri Firaun"
+    },
+    {
+        "pertanyaan": "Apakah tulah pertama yang dijatuhkan Allah kepada bangsa Mesir melalui tangan Musa?",
+        "pilihan": ["Air menjadi darah", "Katak", "Nyamuk", "Gelap gulita"],
+        "jawabanBenar": "Air menjadi darah"
+    },
+    {
+        "pertanyaan": "Apakah tulah ke-9 sebelum kematian anak sulung yang membuat seluruh Mesir gelap?",
+        "pilihan": ["Gelap gulita", "Hujan es", "Belalang", "Sampar hewan"],
+        "jawabanBenar": "Gelap gulita"
+    },
+    {
+        "pertanyaan": "Benda apakah yang menuntun bangsa Israel berjalan pada waktu malam di padang gurun?",
+        "pilihan": ["Tiang awan", "Tiang api", "Bintang timur", "Obor raksasa"],
+        "jawabanBenar": "Tiang api"
+    },
+    {
+        "pertanyaan": "Benda apakah yang memandu perjalanan bangsa Israel pada siang hari di padang gurun?",
+        "pilihan": ["Tiang api", "Tiang awan", "Kompas emas", "Matahari"],
+        "jawabanBenar": "Tiang awan"
+    },
+    {
+        "pertanyaan": "Daging burung apakah yang diturunkan Allah pada waktu malam untuk dimakan bangsa Israel?",
+        "pilihan": ["Burung puyuh", "Burung merpati", "Burung gagak", "Burung rajawali"],
+        "jawabanBenar": "Burung puyuh"
+    },
+    {
+        "pertanyaan": "Perintah Allah yang ke berapakah yang berbunyi: 'Hormatilah ayahmu dan ibumu'?",
+        "pilihan": ["Perintah ke-1", "Perintah ke-5", "Perintah ke-7", "Perintah ke-10"],
+        "jawabanBenar": "Perintah ke-5"
+    },
+    {
+        "pertanyaan": "Di dalam benda apakah Dua Loh Batu perintah Allah disimpan oleh bangsa Israel?",
+        "pilihan": ["Tabut Perjanjian", "Peti emas", "Meja persembahan", "Kemah suci"],
+        "jawabanBenar": "Tabut Perjanjian"
+    },
+    {
+        "pertanyaan": "Siapakah nama perempuan asalnya dari Moab yang menolak meninggalkan mertuanya Naomi?",
+        "pilihan": ["Rut", "Orpa", "Wasti", "Izebel"],
+        "jawabanBenar": "Rut"
+    },
+    {
+        "pertanyaan": "Siapakah nama suami kaya dari Rut setelah mereka bertemu di ladang gandum?",
+        "pilihan": ["Boas", "Elimelekh", "Mahlon", "Kilyon"],
+        "jawabanBenar": "Boas"
+    },
+    {
+        "pertanyaan": "Berapa kalikah tembok kota Yerikho dikelilingi pada hari yang ketujuh sebelum akhirnya runtuh?",
+        "pilihan": ["1 kali", "3 kali", "7 kali", "12 kali"],
+        "jawabanBenar": "7 kali"
+    },
+    {
+        "pertanyaan": "Warna tali apakah yang diikat Rahab di jendelanya agar keluarganya selamat saat Yerikho diserang?",
+        "pilihan": ["Tali kirmizi (merah)", "Tali putih", "Tali biru", "Tali hitam"],
+        "jawabanBenar": "Tali kirmizi (merah)"
+    },
+    {
+        "pertanyaan": "Siapakah nabi terakhir dalam masa Hakim-Hakim yang mengurapi raja pertama Israel?",
+        "pilihan": ["Nabi Samuel", "Nabi Natan", "Nabi Elia", "Nabi Yesaya"],
+        "jawabanBenar": "Nabi Samuel"
+    },
+    {
+        "pertanyaan": "Berapakah jumlah batu licin yang diambil Daud dari alur sungai saat hendak melawan Goliath?",
+        "pilihan": ["1 batu", "3 batu", "5 batu", "12 batu"],
+        "jawabanBenar": "5 batu"
+    },
+    {
+        "pertanyaan": "Berapakah jumlah batu yang melesat dari umban Daud untuk menumbangkan raksasa Goliath?",
+        "pilihan": ["1 batu", "2 batu", "5 batu", "Semua batu"],
+        "jawabanBenar": "1 batu"
+    },
+    {
+        "pertanyaan": "Di kota manakah Raja Daud pertama kali memimpin sebelum akhirnya merebut Yerusalem?",
+        "pilihan": ["Hebron", "Betlehem", "Nazaret", "Sikhem"],
+        "jawabanBenar": "Hebron"
+    },
+    {
+        "pertanyaan": "Siapakah raja Israel yang terkenal paling kaya dan mengimpor banyak emas dari Ofir?",
+        "pilihan": ["Raja Saul", "Raja Daud", "Raja Salomo", "Raja Ahab"],
+        "jawabanBenar": "Raja Salomo"
+    },
+    {
+        "pertanyaan": "Berapa buah bait suci megah yang dibangun oleh Raja Salomo semasa hidupnya?",
+        "pilihan": ["1 bait suci", "2 bait suci", "3 bait suci", "Tidak ada"],
+        "jawabanBenar": "1 bait suci"
+    },
+    {
+        "pertanyaan": "Setelah Kerajaan Israel pecah menjadi dua bagian, dinamakan apakah kerajaan wilayah bagian utara?",
+        "pilihan": ["Kerajaan Israel", "Kerajaan Yehuda", "Kerajaan Filistin", "Kerajaan Samaria"],
+        "jawabanBenar": "Kerajaan Israel"
+    },
+    {
+        "pertanyaan": "Siapakah nama raja pertama dari Kerajaan Yehuda di selatan setelah perpecahan?",
+        "pilihan": ["Rehabeam", "Yerobeam", "Ahab", "Yosia"],
+        "jawabanBenar": "Rehabeam"
+    },
+    {
+        "pertanyaan": "Siapakah nabi yang dijemput oleh kereta berkuda berapi untuk langsung naik ke surga?",
+        "pilihan": ["Nabi Elia", "Nabi Elisa", "Nabi Musa", "Nabi Yesaya"],
+        "jawabanBenar": "Nabi Elia"
+    },
+    {
+        "pertanyaan": "Penyakit mengerikan apakah yang diderita oleh Naaman, panglima tentara dari Aram?",
+        "pilihan": ["Kusta", "Lumpuh", "Buta", "Demam"],
+        "jawabanBenar": "Kusta"
+    },
+    {
+        "pertanyaan": "Berapa hari Yunus berada di dalam perut ikan besar sebelum akhirnya dimuntahkan ke darat?",
+        "pilihan": ["1 hari", "3 hari", "7 hari", "40 hari"],
+        "jawabanBenar": "3 hari"
+    },
+    {
+        "pertanyaan": "Siapakah nabi Perjanjian Lama yang dilempar ke gua singa namun selamat tanpa luka sedikit pun?",
+        "pilihan": ["Daniel", "Yesaya", "Yeremia", "Yehezkiel"],
+        "jawabanBenar": "Daniel"
+    },
+    {
+        "pertanyaan": "Kitab apakah yang terletak di urutan paling pertama di Perjanjian Baru?",
+        "pilihan": ["Matius", "Markus", "Lukas", "Yohanes"],
+        "jawabanBenar": "Matius"
+    },
+    {
+        "pertanyaan": "Kitab apakah yang terletak di urutan paling akhir dari seluruh isi Alkitab?",
+        "pilihan": ["Maleakhi", "Kisah Para Rasul", "Ibrani", "Wahyu"],
+        "jawabanBenar": "Wahyu"
+    },
+    {
+        "pertanyaan": "Siapakah nama kaisar Romawi yang mengeluarkan perintah sensus saat Yesus lahir?",
+        "pilihan": ["Kaisar Agustus", "Kaisar Nero", "Kaisar Tiberius", "Kaisar Herodes"],
+        "jawabanBenar": "Kaisar Agustus"
+    },
+    {
+        "pertanyaan": "Di manakah tempat bayi Yesus diletakkan segera setelah Ia dilahirkan oleh Maria?",
+        "pilihan": ["Di atas kasur", "Di dalam palungan", "Di atas meja", "Di dalam peti emas"],
+        "jawabanBenar": "Di dalam palungan"
+    },
+    {
+        "pertanyaan": "Siapakah orang-orang pertama yang mendapat kabar kelahiran Yesus dari malaikat di padang?",
+        "pilihan": ["Para gembala", "Para raja", "Orang Farisi", "Prajurit Romawi"],
+        "jawabanBenar": "Para gembala"
+    },
+    {
+        "pertanyaan": "Berapakah jumlah hadiah yang dibawa oleh orang-orang majus dari Timur untuk bayi Yesus?",
+        "pilihan": ["2 hadiah", "3 hadiah", "7 hadiah", "12 hadiah"],
+        "jawabanBenar": "3 hadiah"
+    },
+    {
+        "pertanyaan": "Manakah di bawah ini yang merupakan hadiah dari orang majus untuk bayi Yesus?",
+        "pilihan": ["Emas, kemenyan, dan mur", "Emas, perak, dan permata", "Roti, anggur, dan madu", "Pakaian, jubah, dan mahkota"],
+        "jawabanBenar": "Emas, kemenyan, dan mur"
+    },
+    {
+        "pertanyaan": "Ke negara manakah Yusuf membawa Maria dan bayi Yesus mengungsi untuk menghindari amukan Herodes?",
+        "pilihan": ["Mesir", "Babel", "Roma", "Siria"],
+        "jawabanBenar": "Mesir"
+    },
+    {
+        "pertanyaan": "Di kota manakah Yesus dibesarkan bersama Yusuf dan Maria setelah kembali dari Mesir?",
+        "pilihan": ["Nazaret", "Betlehem", "Yerusalem", "Yerikho"],
+        "jawabanBenar": "Nazaret"
+    },
+    {
+        "pertanyaan": "Berapakah usia Yesus saat Ia tertinggal oleh orang tua-Nya dan ditemukan di Bait Allah?",
+        "pilihan": ["7 tahun", "12 tahun", "30 tahun", "33 tahun"],
+        "jawabanBenar": "12 tahun"
+    },
+    {
+        "pertanyaan": "Pekerjaan duniawi apakah yang dilakukan Yesus sebelum memulai pelayanan-Nya?",
+        "pilihan": ["Nelayan", "Tukang kayu", "Gembala domba", "Petani gandum"],
+        "jawabanBenar": "Tukang kayu"
+    },
+    {
+        "pertanyaan": "Berbentuk apakah Roh Kudus turun dari langit saat peristiwa pembaptisan Yesus?",
+        "pilihan": ["Burung merpati", "Lidah api", "Awan putih", "Cahaya kilat"],
+        "jawabanBenar": "Burung merpati"
+    },
+    {
+        "pertanyaan": "Di manakah Yesus berpuasa selama 40 hari dan dicobai oleh iblis?",
+        "pilihan": ["Di padang gurun", "Di atas gunung", "Di taman Getsemani", "Di atas perahu"],
+        "jawabanBenar": "Di padang gurun"
+    },
+    {
+        "pertanyaan": "Berapa kalikah iblis mencoba merayu dan mencobai Yesus di padang gurun?",
+        "pilihan": ["1 kali", "2 kali", "3 kali", "7 kali"],
+        "jawabanBenar": "3 kali"
+    },
+    {
+        "pertanyaan": "Siapakah dua rasul bersaudara yang diajak Yesus pertama kali saat sedang menjala ikan?",
+        "pilihan": ["Simon Petrus dan Andreas", "Yakobus dan Yohanes", "Filipus dan Tomas", "Matius dan Yudas"],
+        "jawabanBenar": "Simon Petrus dan Andreas"
+    },
+    {
+        "pertanyaan": "Siapakah nama dua rasul anak-anak Zebedeus yang merupakan nelayan Danau Galilea?",
+        "pilihan": ["Yakobus dan Yohanes", "Petrus dan Andreas", "Matius dan Tomas", "Filipus dan Natanael"],
+        "jawabanBenar": "Yakobus dan Yohanes"
+    },
+    {
+        "pertanyaan": "Berapakah jumlah keranjang sisa makanan setelah Yesus memberi makan 4000 orang?",
+        "pilihan": ["12 keranjang", "7 keranjang", "5 keranjang", "3 keranjang"],
+        "jawabanBenar": "7 keranjang"
+    },
+    {
+        "pertanyaan": "Mukjizat apakah yang dilakukan Yesus saat meredakan badai besar di Danau Galilea?",
+        "pilihan": ["Menghardik angin dan danau", "Membelah air danau", "Berjalan di atas air", "Mengeringkan air"],
+        "jawabanBenar": "Menghardik angin dan danau"
+    },
+    {
+        "pertanyaan": "Siapakah nama adik perempuan Marta yang memilih duduk mendengarkan Yesus mengajar?",
+        "pilihan": ["Maria", "Maria Magdalena", "Elisabet", "Salome"],
+        "jawabanBenar": "Maria"
+    },
+    {
+        "pertanyaan": "Siapakah perempuan sibuk memasak yang ditegur lembut oleh Yesus karena mengeluhkan adiknya?",
+        "pilihan": ["Marta", "Maria", "Yohana", "Susana"],
+        "jawabanBenar": "Marta"
+    },
+    {
+        "pertanyaan": "Dalam perumpamaan Yesus, siapakah yang menolong korban penyamun setelah imam lewat begitu saja?",
+        "pilihan": ["Orang Samaria yang murah hati", "Orang Farisi", "Orang Lewi", "Prajurit"],
+        "jawabanBenar": "Orang Samaria yang murah hati"
+    },
+    {
+        "pertanyaan": "Dalam perumpamaan Yesus, hewan hilang apakah yang dicari gembala dengan meninggalkan 99 ekor lainnya?",
+        "pilihan": ["Satu ekor domba", "Satu ekor lembu", "Satu ekor kambing", "Satu ekor unta"],
+        "jawabanBenar": "Satu ekor domba"
+    },
+    {
+        "pertanyaan": "Benda berharga apakah yang dikumpulkan oleh seorang perempuan dengan menyapu seluruh rumahnya?",
+        "papan": ["Dirham (keping perak) yang hilang", "Cincin emas", "Mutiara", "Mahkota"],
+        "jawabanBenar": "Dirham (keping perak) yang hilang"
+    },
+    {
+        "pertanyaan": "Makanan apa yang terpaksa dimakan anak hilang dalam perumpamaan ketika ia melarat di negeri orang?",
+        "pilihan": ["Ampas makanan babi", "Rumput kering", "Sisa roti basi", "Buah liar"],
+        "jawabanBenar": "Ampas makanan babi"
+    },
+    {
+        "pertanyaan": "Daun pohon apakah yang dihamparkan orang banyak menyambut Yesus masuk Yerusalem?",
+        "pilihan": ["Daun palem", "Daun zaitun", "Daun ara", "Daun gandum"],
+        "jawabanBenar": "Daun palem"
+    },
+    {
+        "pertanyaan": "Upacara makan malam terakhir Yesus bersama murid-murid-Nya sekarang diperingati sebagai sakramen apa?",
+        "pilihan": ["Perjamuan Kudus", "Baptisan Kudus", "Pernikahan Kudus", "Krisma"],
+        "jawabanBenar": "Perjamuan Kudus"
+    },
+    {
+        "pertanyaan": "Lambang apakah yang dipakai Yesus untuk mengartikan tubuh-Nya dalam Perjamuan Kudus?",
+        "pilihan": ["Roti", "Anggur", "Daging domba", "Air"],
+        "jawabanBenar": "Roti"
+    },
+    {
+        "pertanyaan": "Minuman apakah yang dipakai Yesus untuk melambangkan darah-Nya yang dicurahkan demi manusia?",
+        "pilihan": ["Air anggur", "Air murni", "Susu", "Madu"],
+        "jawabanBenar": "Air anggur"
+    },
+    {
+        "pertanyaan": "Berapakah jumlah keping perak yang dibayarkan kepada Yudas untuk mengkhianati Yesus?",
+        "pilihan": ["30 keping", "50 keping", "100 keping", "12 keping"],
+        "jawabanBenar": "30 keping"
+    },
+    {
+        "pertanyaan": "Hewan apakah yang berkokok setelah Petrus menyangkal Yesus sebanyak tiga kali?",
+        "pilihan": ["Ayam jantan", "Burung gagak", "Burung merpati", "Keledai"],
+        "jawabanBenar": "Ayam jantan"
+    },
+    {
+        "pertanyaan": "Mahkota menyakitkan dari tumbuhan apakah yang dipasang tentara di kepala Yesus untuk mengejek-Nya?",
+        "pilihan": ["Mahkota duri", "Mahkota daun palem", "Mahkota emas", "Mahkota zaitun"],
+        "jawabanBenar": "Mahkota duri"
+    },
+    {
+        "pertanyaan": "Siapakah nama penjahat berbahaya yang dibebaskan orang banyak demi menyalibkan Yesus?",
+        "pilihan": ["Barabas", "Kain", "Yudas", "Goliath"],
+        "jawabanBenar": "Barabas"
+    },
+    {
+        "pertanyaan": "Siapakah orang yang dipaksa tentara Romawi untuk membantu Yesus memikul salib-Nya ke Golgota?",
+        "pilihan": ["Simon dari Kirene", "Yusuf dari Arimatea", "Simon Petrus", "Yohanes"],
+        "jawabanBenar": "Simon dari Kirene"
+    },
+    {
+        "pertanyaan": "Benda apakah yang terbelah dua dari atas sampai ke bawah di Bait Allah saat Yesus wafat?",
+        "pilihan": ["Tabut perjanjian", "Tabir (tirai) Bait Suci", "Mesbah korban", "Pintu gerbang"],
+        "jawabanBenar": "Tabir (tirai) Bait Suci"
+    },
+    {
+        "pertanyaan": "Siapakah orang kaya yang merelakan kubur barunya untuk tempat jenazah Yesus?",
+        "pilihan": ["Yusuf dari Arimatea", "Nikodemus", "Zakeus", "Lazarus"],
+        "jawabanBenar": "Yusuf dari Arimatea"
+    },
+    {
+        "pertanyaan": "Benda besar apakah yang menggelinding menutup pintu masuk makam tempat Yesus dikuburkan?",
+        "pilihan": ["Batu besar", "Pintu besi", "Batang pohon", "Pagar kayu"],
+        "jawabanBenar": "Batu besar"
+    },
+    {
+        "pertanyaan": "Hari apakah Yesus bangkit dari kubur, yang sekarang dirayakan umat Kristen setiap minggu?",
+        "pilihan": ["Hari Jumat", "Hari Sabtu", "Hari Minggu", "Hari Kamis"],
+        "jawabanBenar": "Hari Minggu"
+    },
+    {
+        "pertanyaan": "Siapakah wanita yang menangis di kubur Yesus dan mengira Yesus yang bangkit adalah seorang penunggu taman?",
+        "pilihan": ["Maria Magdalena", "Marta", "Elisabet", "Salome"],
+        "jawabanBenar": "Maria Magdalena"
+    },
+    {
+        "pertanyaan": "Siapakah nama murid Yesus yang dijuluki 'Peragu' karena tidak percaya sebelum memegang bekas paku Yesus?",
+        "pilihan": ["Tomas", "Filipus", "Petrus", "Yohanes"],
+        "jawabanBenar": "Tomas"
+    },
+    {
+        "pertanyaan": "Perintah agung dari Yesus sebelum naik ke surga untuk mengabarkan Injil disebut perintah apa?",
+        "pilihan": ["Amanat Agung", "Hukum Utama", "Dasah Titah", "Nazar Kudus"],
+        "jawabanBenar": "Amanat Agung"
+    },
+    {
+        "pertanyaan": "Ke manakah Yesus pergi setelah menyelesaikan tugas-Nya dan menampakkan diri selama 40 hari?",
+        "pilihan": ["Naik ke surga", "Kembali ke Nazaret", "Pergi ke Roma", "Tinggal di padang gurun"],
+        "jawabanBenar": "Naik ke surga"
+    },
+    {
+        "pertanyaan": "Bentuk penampakan fisik apakah yang hinggap di atas para rasul saat hari Pentakosta?",
+        "pilihan": ["Lidah-lidah api", "Burung merpati", "Awan mendung", "Angin puyuh"],
+        "jawabanBenar": "Lidah-lidah api"
+    },
+    {
+        "pertanyaan": "Kemampuan ajaib apakah yang didapatkan murid-murid setelah dipenuhi Roh Kudus pada hari Pentakosta?",
+        "pilihan": ["Berbicara dalam berbagai bahasa", "Berjalan di atas air", "Terbang ke langit", "Menghilang"],
+        "jawabanBenar": "Berbicara dalam berbagai bahasa"
+    },
+    {
+        "pertanyaan": "Siapakah nama murid mula-mula yang mati dirajam batu karena mempertahankan imannya pada Yesus?",
+        "pilihan": ["Stefanus", "Paulus", "Filipus", "Timotius"],
+        "jawabanBenar": "Stefanus"
+    },
+    {
+        "pertanyaan": "Siapakah nama tokoh yang berganti nama menjadi Paulus setelah melihat cahaya surgawi di jalan ke Damsyik?",
+        "pilihan": ["Saulus", "Simeon", "Silas", "Stefanus"],
+        "jawabanBenar": "Saulus"
+    },
+    {
+        "pertanyaan": "Pekerjaan tambahan apa yang dilakukan Paulus untuk membiayai pelayanannya?",
+        "pilihan": ["Pembuat tenda", "Nelayan ikan", "Tukang periuk", "Pemungut cukai"],
+        "jawabanBenar": "Pembuat tenda"
+    },
+    {
+        "pertanyaan": "Siapakah nama anak muda pelayan Tuhan yang sering diajak Paulus dan dikirimi surat pribadi?",
+        "pilihan": ["Timotius", "Titus", "Silas", "Barnabas"],
+        "jawabanBenar": "Timotius"
+    },
+    {
+        "pertanyaan": "Berapakah jumlah total kitab Injil resmi yang ada di dalam Alkitab Perjanjian Baru?",
+        "pilihan": ["4 kitab", "3 kitab", "5 kitab", "12 kitab"],
+        "jawabanBenar": "4 kitab"
+    },
+    {
+        "pertanyaan": "Manakah di bawah ini yang BUKAN merupakan nama kitab Injil?",
+        "pilihan": ["Kisah Para Rasul", "Matius", "Markus", "Lukas"],
+        "jawabanBenar": "Kisah Para Rasul"
+    },
+    {
+        "pertanyaan": "Doa harian yang diajarkan langsung oleh Tuhan Yesus sendiri dinamakan doa apa?",
+        "pilihan": ["Doa Bapa Kami", "Doa Syafaat", "Doa Pengakuan Iman", "Doa Berkat"],
+        "jawabanBenar": "Doa Bapa Kami"
+    },
+    {
+        "pertanyaan": "Di manakah Yesus menyampaikan kumpulan khotbah-Nya yang terkenal mengenai 'Ucapan Bahagia'?",
+        "pilihan": ["Di atas bukit", "Di atas perahu", "Di dalam Bait Allah", "Di rumah ibadat"],
+        "jawabanBenar": "Di atas bukit"
+    },
+    {
+        "pertanyaan": "Siapakah nama malaikat agung yang diutus membawa kabar sukacita perihal kandungan Maria?",
+        "pilihan": ["Gabriel", "Mikael", "Rafael", "Uriel"],
+        "jawabanBenar": "Gabriel"
+    },
+    {
+        "pertanyaan": "Benda langit apakah yang membimbing orang majus mencari lokasi tempat bayi Yesus lahir?",
+        "pilihan": ["Bintang", "Komet", "Bulan", "Awan berkilat"],
+        "jawabanBenar": "Bintang"
+    },
+    {
+        "pertanyaan": "Siapakah raja kejam yang memerintahkan pembunuhan semua bayi laki-laki di Betlehem?",
+        "pilihan": ["Raja Herodes", "Kaisar Nero", "Gubernur Pilatus", "Raja Saul"],
+        "jawabanBenar": "Raja Herodes"
+    },
+    {
+        "pertanyaan": "Berapa hari Yesus tidak makan dan minum di padang gurun sebelum dicobai?",
+        "pilihan": ["40 hari", "7 hari", "12 hari", "3 hari"],
+        "jawabanBenar": "40 hari"
+    },
+    {
+        "pertanyaan": "Apakah hukum yang diajarkan Yesus sebagai yang terutama dalam kehidupan manusia?",
+        "pilihan": ["Hukum Kasih", "Hukum Persembahan", "Hukum Sabat", "Hukum Puasa"],
+        "jawabanBenar": "Hukum Kasih"
+    },
+    {
+        "pertanyaan": "Siapakah murid yang menulis kitab Wahyu saat diasingkan di pulau Patmos?",
+        "pilihan": ["Yohanes", "Paulus", "Petrus", "Matius"],
+        "jawabanBenar": "Yohanes"
+    },
+    {
+        "pertanyaan": "Di pulau manakah rasul Yohanes menerima penglihatan ilahi mengenai akhir zaman?",
+        "pilihan": ["Pulau Patmos", "Pulau Malta", "Pulau Kreta", "Pulau Siprus"],
+        "jawabanBenar": "Pulau Patmos"
+    },
+    {
+        "pertanyaan": "Di kota manakah untuk pertama kalinya murid-murid Yesus secara resmi dipanggil sebutan 'Kristen'?",
+        "pilihan": ["Antiokhia", "Yerusalem", "Roma", "Nazaret"],
+        "jawabanBenar": "Antiokhia"
+    },
+    {
+        "pertanyaan": "Kata penutup apakah yang digunakan mengakhiri seluruh isi kitab suci Alkitab?",
+        "pilihan": ["Amin", "Haleluya", "Syalom", "Hosana"],
+        "jawabanBenar": "Amin"
+    }
+]

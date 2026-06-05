@@ -1,0 +1,502 @@
+[
+    {
+        "pertanyaan": "Siapakah nama anak laki-laki dari nabi minor Hosea yang namanya berarti 'Bukan umat-Ku'?",
+        "pilihan": ["Lo-Ami", "Lo-Ruhama", "Yisreel", "Syear Yasub"],
+        "jawabanBenar": "Lo-Ami"
+    },
+    {
+        "pertanyaan": "Siapakah nama anak perempuan Hosea yang namanya memiliki arti 'Tidak dikasihi'?",
+        "pilihan": ["Lo-Ruhama", "Lo-Ami", "Gomer", "Milka"],
+        "jawabanBenar": "Lo-Ruhama"
+    },
+    {
+        "pertanyaan": "Berapakah jumlah total anak laki-laki Yakub yang lahir dari rahim Zilpa, hamba perempuan Lea?",
+        "pilihan": ["2 anak", "4 anak", "1 anak", "3 anak"],
+        "jawabanBenar": "2 anak"
+    },
+    {
+        "pertanyaan": "Siapakah dua anak laki-laki Yakub yang lahir dari rahim Zilpa?",
+        "pilihan": ["Gad dan Asyer", "Dan dan Naftali", "Isakhar dan Zebulon", "Yusuf dan Benyamin"],
+        "jawabanBenar": "Gad dan Asyer"
+    },
+    {
+        "pertanyaan": "Siapakah nama anak laki-laki Yakub yang lahir dari rahim Bilha, hamba perempuan Rahel?",
+        "pilihan": ["Dan dan Naftali", "Gad dan Asyer", "Ruben dan Simeon", "Lewi dan Yehuda"],
+        "jawabanBenar": "Dan dan Naftali"
+    },
+    {
+        "pertanyaan": "Siapakah nama kakek buyut dari nabi Zefanya yang silsilahnya dicatat paling panjang di antara nabi-nabi minor?",
+        "pilihan": ["Hizkia", "Amos", "Yosia", "Ahas"],
+        "jawabanBenar": "Hizkia"
+    },
+    {
+        "pertanyaan": "Dari kayu apakah Tabut Perjanjian dan perkakas Kemah Suci dibuat berdasarkan perintah Allah kepada Musa?",
+        "pilihan": ["Kayu penaga (Akasia)", "Kayu aras Libanon", "Kayu zaitun", "Kayu gopher"],
+        "jawabanBenar": "Kayu penaga (Akasia)"
+    },
+    {
+        "pertanyaan": "Dari jenis kayu apakah nabi Nuh membangun bahtera raksasa atas petunjuk spesifik Allah?",
+        "pilihan": ["Kayu gopher", "Kayu penaga", "Kayu aras", "Kayu jati kuno"],
+        "jawabanBenar": "Kayu gopher"
+    },
+    {
+        "pertanyaan": "Siapakah nama istri dari nabi Yesaya yang di dalam teks Alkitab dijuluki sebagai 'Nabi perempuan'?",
+        "pilihan": ["Alkitab tidak menyebutkan nama aslinya", "Hana", "Hulda", "Debora"],
+        "jawabanBenar": "Alkitab tidak menyebutkan nama aslinya"
+    },
+    {
+        "pertanyaan": "Siapakah raja Moab yang mengorbankan anak sulungnya di atas tembok kota sebagai korban bakaran saat terdesak dalam perang?",
+        "pilihan": ["Mesha", "Balak", "Eglon", "Kemos"],
+        "jawabanBenar": "Mesha"
+    },
+    {
+        "pertanyaan": "Siapakah nama ibu dari Raja Solomon (Salomo) yang melahirkannya setelah kematian anak pertama mereka?",
+        "pilihan": ["Batsyeba", "Abigail", "Ahinoam", "Maakha"],
+        "jawabanBenar": "Batsyeba"
+    },
+    {
+        "pertanyaan": "Siapakah nama asli Batsyeba sebelum ia menikah dengan Raja Daud?",
+        "pilihan": ["Batsyeba binti Eliam", "Batsyeba binti Ahitofel", "Batsyeba binti Amiel", "Batsyeba binti Isai"],
+        "jawabanBenar": "Batsyeba binti Eliam"
+    },
+    {
+        "pertanyaan": "Siapakah nama nabi perempuan yang mengesahkan penemuan Kitab Taurat di Bait Allah pada zaman Raja Yosia?",
+        "pilihan": ["Hulda", "Miryam", "Debora", "Anna"],
+        "jawabanBenar": "Hulda"
+    },
+    {
+        "pertanyaan": "Di manakah nabi perempuan Hulda tinggal saat ia didatangi oleh utusan Raja Yosia?",
+        "pilihan": ["Di perkampungan baru Yerusalem", "Di Betel", "Di Samaria", "Di Hebron"],
+        "jawabanBenar": "Di perkampungan baru Yerusalem"
+    },
+    {
+        "pertanyaan": "Siapakah nama raja Yehuda yang matanya dibutakan oleh Nebukadnezar setelah anak-anaknya dibantai di hadapannya?",
+        "pilihan": ["Zedekia", "Yoyakhin", "Yoyakim", "Yoahas"],
+        "jawabanBenar": "Zedekia"
+    },
+    {
+        "pertanyaan": "Di kota manakah Raja Zedekia diadili dan dijatuhi hukuman kejam oleh raja Babel?",
+        "pilihan": ["Ribla", "Susa", "Yerikho", "Gaza"],
+        "jawabanBenar": "Ribla"
+    },
+    {
+        "pertanyaan": "Siapakah panglima tentara Babel yang memimpin penghancuran total tembok dan Bait Allah di Yerusalem?",
+        "pilihan": ["Nebuzaradan", "Nergal-Sarezer", "Nebusyazban", "Rabsaris"],
+        "jawabanBenar": "Nebuzaradan"
+    },
+    {
+        "pertanyaan": "Siapakah pahlawan Daud yang membunuh seorang raksasa beranak enam pada masing-masing tangan dan kakinya?",
+        "pilihan": ["Yonatan bin Simea", "Abisai", "Benaaya", "Sibkhai"],
+        "jawabanBenar": "Yonatan bin Simea"
+    },
+    {
+        "pertanyaan": "Siapakah anak laki-laki Yoyada, seorang imam, yang terkenal gagah perkasa membunuh dua pahlawan Moab dan seekor singa di dalam sumur?",
+        "pilihan": ["Benaaya", "Yoab", "Abisai", "Asael"],
+        "jawabanBenar": "Benaaya"
+    },
+    {
+        "pertanyaan": "Di manakah letak tempat sumur kering di mana Yonatan dan Ahimaas bersembunyi dari kejaran orang-masing Absalom?",
+        "pilihan": ["Bahurim", "En-Rogel", "Mahanaim", "Sikhem"],
+        "jawabanBenar": "Bahurim"
+    },
+    {
+        "pertanyaan": "Siapakah perempuan yang menolong menyembunyikan Yonatan dan Ahimaas di dalam sumur dengan membentangkan kain di atasnya?",
+        "pilihan": ["Seorang perempuan di Bahurim", "Rahab", "Mikal", "Abigail"],
+        "jawabanBenar": "Seorang perempuan di Bahurim"
+    },
+    {
+        "pertanyaan": "Siapakah nama raja Tirus yang bersahabat karib dengan Daud dan mengirim kayu aras serta tukang untuk pembangunan Bait Salomo?",
+        "pilihan": ["Hiram", "Abibal", "Ethbaal", "Tabrimon"],
+        "jawabanBenar": "Hiram"
+    },
+    {
+        "pertanyaan": "Berapakah jumlah takaran air (bat) yang dapat ditampung oleh 'Laut Tembaga' di Bait Allah Salomo?",
+        "pilihan": ["2000 bat", "3000 bat", "1000 bat", "5000 bat"],
+        "jawabanBenar": "2000 bat"
+    },
+    {
+        "pertanyaan": "Siapakah nama nabi yang menegur Raja Asa karena bersandar pada raja Aram dan bukan pada Tuhan?",
+        "pilihan": ["Hanani", "Yehu bin Hanani", "Mika bin Yimla", "Azarya"],
+        "jawabanBenar": "Hanani"
+    },
+    {
+        "pertanyaan": "Siapakah nama nabi, anak Hanani, yang bernubuat menentang Baasa, raja Israel Utara?",
+        "pilihan": ["Yehu", "Mika", "Elia", "Obaja"],
+        "jawabanBenar": "Yehu"
+    },
+    {
+        "pertanyaan": "Siapakah nabi yang menubuatkan kematian Raja Ahab dengan menyamar menggunakan kain ikat kepala?",
+        "pilihan": ["Seorang dari rombongan nabi", "Mika bin Yimla", "Elia", "Elisa"],
+        "jawabanBenar": "Seorang dari rombongan nabi"
+    },
+    {
+        "pertanyaan": "Siapakah nama nabi sejati yang dibenci Ahab karena selalu bernubuat buruk tentangnya, selain Elia?",
+        "pilihan": ["Mika bin Yimla", "Zedekia bin Kenaana", "Hanani", "Azarya"],
+        "jawabanBenar": "Mika bin Yimla"
+    },
+    {
+        "pertanyaan": "Siapakah nabi palsu yang membuat tanduk-tanduk besi untuk meyakinkan Ahab agar berperang ke Ramot-Gilead?",
+        "pilihan": ["Zedekia bin Kenaana", "Mika", "Pekah", "Paseah"],
+        "jawabanBenar": "Zedekia bin Kenaana"
+    },
+    {
+        "pertanyaan": "Di manakah letak bukit tempat kota Samaria, ibu kota Israel Utara, dibangun oleh Raja Omri?",
+        "pilihan": ["Bukit Semer", "Bukit Sion", "Gunung Efraim", "Gunung Karmel"],
+        "jawabanBenar": "Bukit Semer"
+    },
+    {
+        "pertanyaan": "Berapakah jumlah talenta perak yang dibayarkan Omri kepada Semer untuk membeli bukit Samaria?",
+        "pilihan": ["2 talenta perak", "5 talenta perak", "10 talenta perak", "1 talenta perak"],
+        "jawabanBenar": "2 talenta perak"
+    },
+    {
+        "pertanyaan": "Siapakah nama dewa lalat orang Filistin di Ekron yang dimintai petunjuk oleh Raja Ahazia saat sakit?",
+        "pilihan": ["Baal-Zebub", "Dagon", "Asytoret", "Kemos"],
+        "jawabanBenar": "Baal-Zebub"
+    },
+    {
+        "pertanyaan": "Siapakah nama hamba nabi Elisa yang dikutuk menjadi kusta karena serakah mengambil hadiah dari Naaman?",
+        "pilihan": ["Gehazi", "Abdon", "Eliezer", "Ziba"],
+        "jawabanBenar": "Gehazi"
+    },
+    {
+        "pertanyaan": "Siapakah nama ibu dari Raja Hizkia yang merupakan anak dari Zakharia?",
+        "pilihan": ["Abia (Abi)", "Maakha", "Atalya", "Yoyadan"],
+        "jawabanBenar": "Abia (Abi)"
+    },
+    {
+        "pertanyaan": "Siapakah nama juru minuman agung dan utusan raja Asyur, Sanherib, yang menghina Allah hidup di tembok Yerusalem?",
+        "pilihan": ["Rabsake", "Tartan", "Rabsaris", "Tirhaka"],
+        "jawabanBenar": "Rabsake"
+    },
+    {
+        "pertanyaan": "Di kuil dewa manakah Raja Sanherib terbunuh oleh anak-anaknya sendiri setelah gagal merebut Yerusalem?",
+        "pilihan": ["Nisrok", "Dagon", "Bel", "Nebo"],
+        "jawabanBenar": "Nisrok"
+    },
+    {
+        "pertanyaan": "Siapakah dua anak Sanherib yang membunuhnya dengan pedang saat ia menyembah di kuil?",
+        "pilihan": ["Adramelekh dan Sarezer", "Esarhadon dan Merodakh", "Sargan dan Tiglat", "Pul dan Belesyzar"],
+        "jawabanBenar": "Adramelekh dan Sarezer"
+    },
+    {
+        "pertanyaan": "Siapakah raja Yehuda dengan masa pemerintahan paling lama, yaitu lima puluh lima tahun, dan terkenal sangat fasik namun bertobat di akhir hayat?",
+        "pilihan": ["Manasye", "Hizkia", "Yosia", "Ahas"],
+        "jawabanBenar": "Manasye"
+    },
+    {
+        "pertanyaan": "Ke kota manakah Raja Manasye dibawa sebagai tawanan dengan menggunakan rantai dan kecu oleh tentara Asyur?",
+        "pilihan": ["Babel", "Niniwe", "Susa", "Damaskus"],
+        "jawabanBenar": "Babel"
+    },
+    {
+        "pertanyaan": "Siapakah nabi yang diperintahkan Allah untuk membeli ladang di Anatot sebagai lambang harapan pemulihan Yehuda?",
+        "pilihan": ["Yeremia", "Yesaya", "Yehezkiel", "Hosea"],
+        "jawabanBenar": "Yeremia"
+    },
+    {
+        "pertanyaan": "Siapakah nama sepupu Yeremia yang menjual ladang di Anatot kepadanya?",
+        "pilihan": ["Hanamel", "Sallum", "Neria", "Barukh"],
+        "jawabanBenar": "Hanamel"
+    },
+    {
+        "pertanyaan": "Siapakah nama imam kepala yang memukul Yeremia dan memasungnya di pintu gerbang Benyamin?",
+        "pilihan": ["Pashur bin Imer", "Zofanya", "Hilkia", "Seraya"],
+        "jawabanBenar": "Pashur bin Imer"
+    },
+    {
+        "pertanyaan": "Siapakah raja Yehuda yang membakar gulungan kitab nubuatan Yeremia sepotong demi sepotong di perapian musim dingin?",
+        "pilihan": ["Yoyakim", "Yoyakhin", "Zedekia", "Yoahas"],
+        "jawabanBenar": "Yoyakim"
+    },
+    {
+        "pertanyaan": "Siapakah nama juru tulis istana yang menyerahkan gulungan kitab Yeremia kepada Raja Yoyakim?",
+        "pilihan": ["Elisama", "Yohanan", "Sefatya", "Gedalya"],
+        "jawabanBenar": "Elisama"
+    },
+    {
+        "pertanyaan": "Siapakah nama perwira tinggi Babel yang diperintahkan Nebukadnezar untuk memperlakukan Yeremia dengan baik setelah Yerusalem jatuh?",
+        "pilihan": ["Nebuzaradan", "Nergal-Sarezer", "Rabsaris", "Samsgar"],
+        "jawabanBenar": "Nebuzaradan"
+    },
+    {
+        "pertanyaan": "Di dekat sungai manakah nabi Yehezkiel berada di antara para buangan ketika ia menerima penglihatan ilahi?",
+        "pilihan": ["Sungai Kebar", "Sungai Efrat", "Sungai Tigris", "Sungai Ulai"],
+        "jawabanBenar": "Sungai Kebar"
+    },
+    {
+        "pertanyaan": "Siapakah pemimpin rohani terkemuka pasca-pembuangan yang silsilahnya ditarik langsung sampai ke Imam Besar Harun?",
+        "pilihan": ["Ezra", "Nehemia", "Zorobabel", "Yesua"],
+        "jawabanBenar": "Ezra"
+    },
+    {
+        "pertanyaan": "Siapakah nama musuh utama Nehemia yang memimpin penolakan pembangunan kembali tembok Yerusalem dari wilayah Samaria?",
+        "pilihan": ["Sanbalat", "Tobia", "Gesyem", "Nodaja"],
+        "jawabanBenar": "Sanbalat"
+    },
+    {
+        "pertanyaan": "Dari bangsa manakah Tobia, sekutu Sanbalat yang menentang keras pekerjaan Nehemia?",
+        "pilihan": ["Bangsa Amon", "Bangsa Moab", "Bangsa Edom", "Bangsa Arab"],
+        "jawabanBenar": "Bangsa Amon"
+    },
+    {
+        "pertanyaan": "Siapakah orang Arab yang bersekutu dengan Sanbalat dan Tobia untuk menyerang para pekerja Nehemia?",
+        "pilihan": ["Gesyem", "Kemuel", "Hadad", "Mesha"],
+        "jawabanBenar": "Gesyem"
+    },
+    {
+        "pertanyaan": "Berapa hari lamanya waktu yang dibutuhkan Nehemia beserta jemaat untuk menyelesaikan seluruh tembok Yerusalem?",
+        "pilihan": ["52 hari", "40 hari", "70 hari", "120 hari"],
+        "jawabanBenar": "52 hari"
+    },
+    {
+        "pertanyaan": "Suku Israel manakah yang tidak dicantumkan dalam daftar 144.000 orang yang dimeterai dalam Kitab Wahyu pasal 7?",
+        "pilihan": ["Suku Dan", "Suku Efraim", "Suku Gad", "Suku Simeon"],
+        "jawabanBenar": "Suku Dan"
+    },
+    {
+        "pertanyaan": "Menurut Injil Lukas pasal 3, siapakah nama ayah dari Yusuf, suami Maria, dalam urutan silsilah ke atas?",
+        "pilihan": ["Heli", "Yakub", "Matat", "Lewi"],
+        "jawabanBenar": "Heli"
+    },
+    {
+        "pertanyaan": "Menurut Injil Matius pasal 1, siapakah nama ayah dari Yusuf, suami Maria?",
+        "pilihan": ["Yakub", "Heli", "Eleazar", "Matan"],
+        "jawabanBenar": "Yakub"
+    },
+    {
+        "pertanyaan": "Di daerah manakah Yesus menyembuhkan dua orang yang kerasukan setan dari perkuburan menurut Injil Matius?",
+        "pilihan": ["Gadara", "Gerasa", "Magdala", "Betsaida"],
+        "jawabanBenar": "Gadara"
+    },
+    {
+        "pertanyaan": "Siapakah nama perempuan yang dibebaskan Yesus dari tujuh setan, yang juga mendanai pelayanan-Nya?",
+        "pilihan": ["Maria Magdalena", "Yohana", "Susana", "Maria ibu Yakobus"],
+        "jawabanBenar": "Maria Magdalena"
+    },
+    {
+        "pertanyaan": "Siapakah istri Khuza, bendahara Herodes, yang ikut serta melayani dan mendanai rombongan Yesus?",
+        "pilihan": ["Yohana", "Susana", "Marta", "Salome"],
+        "jawabanBenar": "Yohana"
+    },
+    {
+        "pertanyaan": "Apakah arti istilah Ibrani 'Raka' yang dikecam oleh Yesus dalam Khotbah di Bukit?",
+        "pilihan": ["Bebal / Bodoh konyol", "Kafir", "Pengkhianat", "Terutuk"],
+        "jawabanBenar": "Bebal / Bodoh konyol"
+    },
+    {
+        "pertanyaan": "Siapakah nama murid yang dipilih melalui undian untuk menggantikan posisi Yudas Iskariot sebagai rasul?",
+        "pilihan": ["Matias", "Yusuf yang disebut Barsabas", "Barnabas", "Silas"],
+        "jawabanBenar": "Matias"
+    },
+    {
+        "pertanyaan": "Siapakah nama lengkap dari Yusuf Barsabas, kandidat rasul yang tidak terpilih saat undian bersama Matias?",
+        "pilihan": ["Yustus", "Titus", "Tikhikus", "Arkiplus"],
+        "jawabanBenar": "Yustus"
+    },
+    {
+        "pertanyaan": "Siapakah nama penasihat ahli Taurat, guru dari Saulus, yang menasihati Mahkamah Agama agar tidak menghukum para rasul?",
+        "pilihan": ["Gamaliel", "Nikodemus", "Kayafas", "Anas"],
+        "jawabanBenar": "Gamaliel"
+    },
+    {
+        "pertanyaan": "Dari mazhab manakah Gamaliel, sang pengajar hukum Taurat terkemuka di Yerusalem?",
+        "pilihan": ["Farisi", "Saduki", "Esene", "Zelot"],
+        "jawabanBenar": "Farisi"
+    },
+    {
+        "pertanyaan": "Siapakah nama salah satu dari tujuh diaken pertama yang memberitakan Injil kepada benteng istana Etiopia?",
+        "pilihan": ["Filipus", "Prohorus", "Nikanor", "Timon"],
+        "jawabanBenar": "Filipus"
+    },
+    {
+        "pertanyaan": "Siapakah nama ratu Etiopia yang pegawainya dibaptis oleh Filipus di jalan sunyi menuju Gaza?",
+        "pilihan": ["Kandake", "Seba", "Makeda", "Cleopatra"],
+        "jawabanBenar": "Kandake"
+    },
+    {
+        "pertanyaan": "Di kota manakah Simon si penyihir mencoba membeli kuasa Roh Kudus dari tangan Petrus dan Yohanes dengan uang?",
+        "pilihan": ["Samaria", "Yerusalem", "Yope", "Kaisarea"],
+        "jawabanBenar": "Samaria"
+    },
+    {
+        "pertanyaan": "Siapakah nama perwira pasukan Romawi asal Kaisarea, dari pasukan Italia, yang merupakan orang non-Yahudi pertama yang menerima Roh Kudus?",
+        "pilihan": ["Kornelius", "Yulius", "Longinus", "Galio"],
+        "jawabanBenar": "Kornelius"
+    },
+    {
+        "pertanyaan": "Siapakah nama ibu kandung dari Yohanes Markus, yang rumahnya menjadi tempat berkumpul jemaat berdoa saat Petrus dipenjara?",
+        "pilihan": ["Maria", "Marta", "Febe", "Lidia"],
+        "jawabanBenar": "Maria"
+    },
+    {
+        "pertanyaan": "Di manakah letak kota kelahiran rasul Paulus di wilayah Kilikia yang memberinya status warga negara Romawi sejak lahir?",
+        "pilihan": ["Tarsus", "Antiokhia", "Efesus", "Ikonium"],
+        "jawabanBenar": "Tarsus"
+    },
+    {
+        "pertanyaan": "Siapakah nama nabi dari Yerusalem yang datang ke Antiokhia dan menubuatkan kelaparan besar di seluruh dunia pada zaman Kaisar Klaudius?",
+        "pilihan": ["Agabus", "Silas", "Yudas Barsabas", "Manahen"],
+        "jawabanBenar": "Agabus"
+    },
+    {
+        "pertanyaan": "Benda apakah yang diikatkan Agabus pada tangan dan kakinya sendiri sebagai nubuat simbolis penangkapan Paulus di Yerusalem?",
+        "pilihan": ["Ikat pinggang Paulus", "Jubah Paulus", "Tali kasut", "Rantai besi"],
+        "jawabanBenar": "Ikat pinggang Paulus"
+    },
+    {
+        "pertanyaan": "Siapakah kerabat masa kecil raja Herodes Antipas yang menjadi salah satu pemimpin jemaat di Antiokhia?",
+        "pilihan": ["Manahen", "Lucius", "Simeon Niger", "Barnabas"],
+        "jawabanBenar": "Manahen"
+    },
+    {
+        "pertanyaan": "Siapakah nama penyihir Yahudi di Pafos yang matanya menjadi buta seketika setelah ditegur oleh Paulus?",
+        "pilihan": ["Bar-Yesus (Elimas)", "Simon", "Skewa", "Alexander"],
+        "jawabanBenar": "Bar-Yesus (Elimas)"
+    },
+    {
+        "pertanyaan": "Di kota manakah Paulus disembah sebagai Dewa Hermes dan Barnabas sebagai Dewa Zeus oleh penduduk setempat?",
+        "pilihan": ["Listra", "Derbe", "Ikonium", "Papias"],
+        "jawabanBenar": "Listra"
+    },
+    {
+        "pertanyaan": "Siapakah nama wanita pedagang kain ungu dari kota Tiatira yang menjadi orang percaya pertama di Filipi Eropa?",
+        "pilihan": ["Lidia", "Febe", "Priskila", "Damaris"],
+        "jawabanBenar": "Lidia"
+    },
+    {
+        "pertanyaan": "Siapakah nama kepala rumah ibadat di Korintus yang bertobat dan dibaptis langsung oleh Paulus beserta seisi rumahnya?",
+        "pilihan": ["Krispus", "Sostenes", "Gaius", "Erastus"],
+        "jawabanBenar": "Krispus"
+    },
+    {
+        "pertanyaan": "Siapakah nama kepala rumah ibadat setelah Krispus yang dipukuli oleh massa di depan pengadilan Prokonsul Galio?",
+        "pilihan": ["Sostenes", "Yustus", "Tiranus", "Apelles"],
+        "jawabanBenar": "Sostenes"
+    },
+    {
+        "pertanyaan": "Di kota manakah Paulus mengajar setiap hari di ruang kuliah sebuah sekolah milik Tiranus selama dua tahun?",
+        "pilihan": ["Efesus", "Korintus", "Atena", "Milétus"],
+        "jawabanBenar": "Efesus"
+    },
+    {
+        "pertanyaan": "Siapakah nama tukang perak di Efesus yang menggerakkan huru-hara besar karena merasa bisnis patung Dewa Artemis mereka terancam oleh Paulus?",
+        "pilihan": ["Demetrius", "Alexander", "Hermogenes", "Himeneus"],
+        "jawabanBenar": "Demetrius"
+    },
+    {
+        "pertanyaan": "Siapakah nama imam kepala Yahudi yang ketujuh anak laki-lakinya diserang dan ditelanjangi oleh orang yang kerasukan setan karena menyalahgunakan nama Yesus?",
+        "pilihan": ["Skewa", "Anas", "Kayafas", "Ismael"],
+        "jawabanBenar": "Skewa"
+    },
+    {
+        "pertanyaan": "Siapakah nama gubernur Romawi di Kaisarea yang menahan Paulus selama dua tahun berharap mendapatkan uang suap?",
+        "pilihan": ["Felix", "Festus", "Galio", "Pilatus"],
+        "jawabanBenar": "Felix"
+    },
+    {
+        "pertanyaan": "Siapakah nama istri Felix, seorang wanita Yahudi, yang ikut mendengarkan ceramah Paulus tentang iman?",
+        "pilihan": ["Drusila", "Bernike", "Herodias", "Salome"],
+        "jawabanBenar": "Drusila"
+    },
+    {
+        "pertanyaan": "Siapakah nama gubernur pengganti Felix yang meneruskan persidangan Paulus dan mengirimnya ke Roma?",
+        "pilihan": ["Porcius Festus", "Pontius Pilatus", "Klaudius Lisias", "Publius"],
+        "jawabanBenar": "Porcius Festus"
+    },
+    {
+        "pertanyaan": "Siapakah nama raja Yahudi yang bersama saudaranya Bernike datang ke Kaisarea untuk mendengarkan pembelaan Paulus di hadapan Festus?",
+        "pilihan": ["Herodes Agrippa II", "Herodes Agrippa I", "Herodes Antipas", "Herodes Arkhelaus"],
+        "jawabanBenar": "Herodes Agrippa II"
+    },
+    {
+        "pertanyaan": "Siapakah nama perwira pasukan Romawi dari pasukan Kaisar yang mengawal Paulus dalam pelayaran sebagai tahanan menuju Roma?",
+        "pilihan": ["Yulius", "Kornelius", "Publius", "Lisias"],
+        "jawabanBenar": "Yulius"
+    },
+    {
+        "pertanyaan": "Apakah nama badai timur laut yang sangat dahsyat yang mengempaskan kapal Paulus di Laut Tengah?",
+        "pilihan": ["Erakwilon (Euroakwilo)", "Siroko", "Tifun", "Monsun"],
+        "jawabanBenar": "Erakwilon (Euroakwilo)"
+    },
+    {
+        "pertanyaan": "Berapakah jumlah total jiwa yang berada di dalam kapal karam bersama Paulus sebelum selamat di Malta?",
+        "pilihan": ["276 jiwa", "120 jiwa", "153 jiwa", "318 jiwa"],
+        "jawabanBenar": "276 jiwa"
+    },
+    {
+        "pertanyaan": "Siapakah nama ayah dari Publius, kepala pulau Malta, yang disembuhkan Paulus dari penyakit demam dan disentri?",
+        "pilihan": ["Alkitab tidak mencantumkan namanya", "Publius Senior", "Teofilus", "Gaius"],
+        "jawabanBenar": "Alkitab tidak mencantumkan namanya"
+    },
+    {
+        "pertanyaan": "Siapakah nama bendahara kota Korintus yang mengirimkan salam kepada jemaat di Roma melalui surat Paulus?",
+        "pilihan": ["Erastus", "Kuartus", "Gaius", "Tertius"],
+        "jawabanBenar": "Erastus"
+    },
+    {
+        "pertanyaan": "Siapakah nama juru tulis (sekretaris) yang secara fisik menuliskan Surat Roma atas dikte dari rasul Paulus?",
+        "pilihan": ["Tertius", "Kuartus", "Erastus", "Gaius"],
+        "jawabanBenar": "Tertius"
+    },
+    {
+        "pertanyaan": "Siapakah nama budak yang melarikan diri dari Filemon, yang kemudian bertobat di penjara setelah dilayani oleh Paulus?",
+        "pilihan": ["Onesimus", "Epafras", "Arkiplus", "Tikhikus"],
+        "jawabanBenar": "Onesimus"
+    },
+    {
+        "pertanyaan": "Apakah arti harfiah dari nama 'Onesimus' dalam bahasa Yunani kuno?",
+        "pilihan": ["Berguna / Bermanfaat", "Hamba setia", "Merdeka", "Sahabat"],
+        "jawabanBenar": "Berguna / Bermanfaat"
+    },
+    {
+        "pertanyaan": "Siapakah rekan sekerja Paulus yang mendirikan dan menggembalakan jemaat di Kolose?",
+        "pilihan": ["Epafras", "Tikhikus", "Arkiplus", "Demas"],
+        "jawabanBenar": "Epafras"
+    },
+    {
+        "pertanyaan": "Siapakah rekan sekerja Paulus yang meninggalkan pelayanan karena lebih mencintai dunia materi saat Paulus di penjara kedua kali?",
+        "pilihan": ["Demas", "Kreskes", "Titus", "Tikhikus"],
+        "jawabanBenar": "Demas"
+    },
+    {
+        "pertanyaan": "Siapakah nama tukang tembaga yang disebut Paulus dalam suratnya kepada Timotius karena telah banyak berbuat jahat terhadapnya?",
+        "pilihan": ["Alexander", "Himeneus", "Filetus", "Demas"],
+        "jawabanBenar": "Alexander"
+    },
+    {
+        "pertanyaan": "Siapakah dua orang pengajar sesat yang disebut Paulus telah menyimpang dari kebenaran dengan mengajarkan bahwa kebangkitan telah terjadi?",
+        "pilihan": ["Himeneus dan Filetus", "Himeneus dan Alexander", "Figelus dan Hermogenes", "Yanes dan Yambres"],
+        "jawabanBenar": "Himeneus dan Filetus"
+    },
+    {
+        "pertanyaan": "Siapakah nama dua penyihir Mesir yang menurut tradisi surat Timotius menentang Musa di hadapan Firaun?",
+        "pilihan": ["Yanes dan Yambres", "Bileam dan Balak", "Kora dan Abiram", "Hofni dan Pinehas"],
+        "jawabanBenar": "Yanes dan Yambres"
+    },
+    {
+        "pertanyaan": "Kepada jemaat di kota manakah Yesus mencela ajaran kelompok 'Nikolaus' yang menyusup ke dalam kehidupan iman mereka?",
+        "pilihan": ["Efesus dan Pergamus", "Smirna dan Sardis", "Tiatira dan Laodikia", "Filadelfia dan Pergamus"],
+        "jawabanBenar": "Efesus dan Pergamus"
+    },
+    {
+        "pertanyaan": "Siapakah nama martir setia Kristus di Pergamus yang disebut dalam Kitab Wahyu sebagai tempat takhta Iblis?",
+        "pilihan": ["Antipas", "Polikarpus", "Ignatius", "Stefanus"],
+        "jawabanBenar": "Antipas"
+    },
+    {
+        "pertanyaan": "Apakah arti dari nama malaikat jurang maut dalam bahasa Ibrani yang disebut pada peristiwa sangkakala kelima?",
+        "pilihan": ["Abadon", "Apolion", "Beelzebul", "Belial"],
+        "jawabanBenar": "Abadon"
+    },
+    {
+        "pertanyaan": "Apakah nama Yunani untuk malaikat jurang maut 'Abadon' yang berarti Sang Perusak?",
+        "pilihan": ["Apolion", "Abadon", "Asmodeus", "Lucifer"],
+        "jawabanBenar": "Apolion"
+    },
+    {
+        "pertanyaan": "Batu permata jenis apakah yang membentuk dasar fondasi kedua belas (terakhir) dari kota kudus Yerusalem Baru?",
+        "pilihan": ["Kecubung (Amethyst)", "Yaspis", "Krisolit", "Topas"],
+        "jawabanBenar": "Kecubung (Amethyst)"
+    }
+]

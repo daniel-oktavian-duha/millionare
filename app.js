@@ -9,7 +9,7 @@ const daftarHadiah = [
 
 const labelAbjad = ["A:", "B:", "C:", "D:"];
 
-let bankSoal = null;
+let bankSoal = { mudah: [], sedang: [], sulit: [] }; 
 let nomorPertanyaanSekarang = 1; 
 let soalAktif = null;
 let bantan5050Digunakan = false;
@@ -37,15 +37,13 @@ function putarSuara(namaFile, loop = false, volume = 1.0) {
     let audio = new Audio(`sound/${namaFile}`);
     audio.loop = loop;
     audio.volume = volume;
-    audio.play().catch(e => console.log("Audio play dicegah oleh browser sebelum ada interaksi pengguna."));
+    audio.play().catch(e => console.log("Audio play dicegah oleh browser."));
     return audio;
 }
 
 function gantiMusikLatar(namaFile, loop = true, volume = 0.6) {
-    // Hentikan musik sebelumnya jika ada
     if (musikLatarAktif) {
         let audioLama = musikLatarAktif;
-        // Efek fade-out halus dalam 0.5 detik
         let sisaVolume = audioLama.volume;
         let fadeInterval = setInterval(() => {
             if (sisaVolume > 0.1) {
@@ -57,7 +55,6 @@ function gantiMusikLatar(namaFile, loop = true, volume = 0.6) {
             }
         }, 50);
     }
-    // Jalankan musik latar baru yang otomatis berulang (loop)
     musikLatarAktif = putarSuara(namaFile, loop, volume);
 }
 
@@ -76,7 +73,7 @@ function sesuaikanMusikLatarKategori(nomor) {
 // ==========================================
 function gantiAyatAcak() {
     const areaAyat = document.getElementById("area-ayat");
-    if (!areaAyat) return;
+    if (!areaAyat || typeof daftarAyat === 'undefined' || daftarAyat.length === 0) return;
 
     areaAyat.style.opacity = "0"; 
 
@@ -89,7 +86,7 @@ function gantiAyatAcak() {
 
 function mulaiSistemAyat() {
     gantiAyatAcak();
-    // 15 menit = 15 * 60 * 1000 milidetik = 900.000
+    if (intervalAyat) clearInterval(intervalAyat);
     intervalAyat = setInterval(gantiAyatAcak, 900000);
 }
 
@@ -153,6 +150,7 @@ function nyalakanKembangApi(durasiMiliDetik) {
 // ==========================================
 function tampilkanNotifikasiAutoclose(pesan, jenis = "netral", durasi = 3000) {
     const container = document.getElementById("container-notifikasi");
+    if (!container) return;
     const toast = document.createElement("div");
     toast.className = `toast ${jenis}`;
     toast.innerText = pesan;
@@ -161,30 +159,49 @@ function tampilkanNotifikasiAutoclose(pesan, jenis = "netral", durasi = 3000) {
 }
 
 // ==========================================
-// LOGIKA PERMAINAN UTAMA
+// ENGINE SINKRONISASI DATABASE (BACKGROUND LOAD)
 // ==========================================
 async function ambilDataSoal() {
     try {
-        const response = await fetch('questions.json');
-        bankSoal = await response.json();
-        
-        // PENTING: Acak seluruh isi bank soal di awal agar tidak ada soal duplikat
-        bankSoal.mudah = acakArray([...bankSoal.mudah]);
-        bankSoal.sedang = acakArray([...bankSoal.sedang]);
-        bankSoal.sulit = acakArray([...bankSoal.sulit]);
+        // Otomatis download pecahan di background awal web dibuka
+        const [m1, m2, s1, s2, sl1, sl2] = await Promise.all([
+            fetch('database/mudah_part1.json').then(res => res.json()),
+            fetch('database/mudah_part2.json').then(res => res.json()),
+            fetch('database/sedang_part1.json').then(res => res.json()),
+            fetch('database/sedang_part2.json').then(res => res.json()),
+            fetch('database/sulit_part1.json').then(res => res.json()),
+            fetch('database/sulit_part2.json').then(res => res.json())
+        ]);
+
+        bankSoal.mudah = acakArray([...m1, ...m2]);
+        bankSoal.sedang = acakArray([...s1, ...s2]);
+        bankSoal.sulit = acakArray([...sl1, ...sl2]);
 
         indeksSoalKategori = { mudah: 0, sedang: 0, sulit: 0 };
-
         buatTanggaHadiah();
-        putarSuara("begin.mp3", false, 0.8); // Efek suara intro (tidak loop)
-        
-        setTimeout(() => {
-            muatSoalBaru();
-        }, 4000); // Beri jeda 4 detik agar lagu intro selesai terlebih dahulu
-        mulaiSistemAyat();
+
     } catch (error) {
-        document.getElementById("teks-pertanyaan").innerText = "Gagal memuat soal. Pastikan file JSON ada.";
+        console.error("Error loading database folders:", error);
+        document.getElementById("teks-pertanyaan").innerText = "Gagal memuat pecahan database.";
     }
+}
+
+// ==========================================
+// SISTEM INTERAKSI AWAL (BYPASS BLOCK AUDIO)
+// ==========================================
+function mulaiPermainanPertamaKali() {
+    // Hilangkan overlay start screen setelah interaksi
+    const layarMulai = document.getElementById("layar-mulai");
+    if (layarMulai) layarMulai.style.display = "none";
+
+    // Suara intro sukses diputar karena dipicu event click manual user
+    putarSuara("begin.mp3", false, 0.8); 
+    mulaiSistemAyat(); 
+    
+    // Beri jeda 4 detik agar lagu intro selesai baru kuis dimulai
+    setTimeout(() => {
+        muatSoalBaru();
+    }, 4000);
 }
 
 function dapatkanKategoriKesulitan(nomor) {
@@ -196,18 +213,16 @@ function dapatkanKategoriKesulitan(nomor) {
 function muatSoalBaru() {
     perbaruiHighlightHadiah();
     perbaruiTeksHadiahAtas();
-    sesuaikanMusikLatarKategori(nomorPertanyaanSekarang); // Musik ketegangan otomatis loop
+    sesuaikanMusikLatarKategori(nomorPertanyaanSekarang); 
 
     let kategori = dapatkanKategoriKesulitan(nomorPertanyaanSekarang);
     let kumpulanSoal = bankSoal[kategori];
     
-    // Ambil soal berdasarkan indeks antrean yang berjalan unik
     let indeksSekarang = indeksSoalKategori[kategori];
     let soalTerpilih = kumpulanSoal[indeksSekarang];
     
-    indeksSoalKategori[kategori]++; // Naikkan nomor antrean soal berikutnya
+    indeksSoalKategori[kategori]++; 
     
-    // Acak susunan pilihan jawaban (A, B, C, D)
     let pilihanDiacak = acakArray([...soalTerpilih.pilihan]);
 
     soalAktif = { pertanyaan: soalTerpilih.pertanyaan, pilihan: pilihanDiacak, jawabanBenar: soalTerpilih.jawabanBenar };
@@ -222,10 +237,12 @@ function muatSoalBaru() {
 }
 
 function cekJawaban(tombolDiklik) {
+    if (tombolDiklik.classList.contains("terhapus-5050")) return;
+
     tombolTerpilihSementara = tombolDiklik;
     tombolTerpilihSementara.classList.add("terpilih");
     
-    gantiMusikLatar("final.mp3", true, 0.7); // Musik ketegangan saat konfirmasi "Final Answer?"
+    gantiMusikLatar("final.mp3", true, 0.7); 
     document.getElementById("modal-konfirmasi").style.display = "flex";
 }
 
@@ -237,7 +254,7 @@ document.getElementById("btn-yakin-ya").addEventListener("click", () => {
 document.getElementById("btn-yakin-tidak").addEventListener("click", () => {
     document.getElementById("modal-konfirmasi").style.display = "none";
     if (tombolTerpilihSementara) tombolTerpilihSementara.classList.remove("terpilih");
-    sesuaikanMusikLatarKategori(nomorPertanyaanSekarang); // Kembalikan ke musik ketegangan soal awal
+    sesuaikanMusikLatarKategori(nomorPertanyaanSekarang); 
 });
 
 function prosesEksekusiJawaban() {
@@ -247,8 +264,8 @@ function prosesEksekusiJawaban() {
     tombolTerpilihSementara.classList.remove("terpilih");
 
     if (jawabanPemain === soalAktif.jawabanBenar) {
-        if (musikLatarAktif) musikLatarAktif.pause(); // Matikan musik tegang saat efek jingle benar berbunyi
-        putarSuara("correct.mp3", false, 0.9); // Efek suara Benar (tidak loop)
+        if (musikLatarAktif) musikLatarAktif.pause(); 
+        putarSuara("correct.mp3", false, 0.9); 
         
         tombolTerpilihSementara.classList.add("benar-kedip");
         let levelSelesai = nomorPertanyaanSekarang;
@@ -269,7 +286,7 @@ function prosesEksekusiJawaban() {
         }
     } else {
         if (musikLatarAktif) musikLatarAktif.pause();
-        putarSuara("wrong.mp3", false, 0.9); // Efek suara Salah (tidak loop)
+        putarSuara("wrong.mp3", false, 0.9); 
 
         tombolTerpilihSementara.classList.add("salah-kedip");
         semuaTombol.forEach(btn => {
@@ -288,13 +305,12 @@ function prosesEksekusiJawaban() {
 }
 
 // ==========================================
-// 5. FITUR BANTUAN & PANEL HADIAH
+// FITUR BANTUAN & PANEL HADIAH
 // ==========================================
 function gunakan5050() {
     if (bantan5050Digunakan) return;
     let tombolPilihan = Array.from(document.querySelectorAll(".btn-pilihan"));
     
-    // Acak urutan tombol pilihan yang akan dievaluasi untuk disembunyikan teksnya
     for (let i = tombolPilihan.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [tombolPilihan[i], tombolPilihan[j]] = [tombolPilihan[j], tombolPilihan[i]];
@@ -304,7 +320,6 @@ function gunakan5050() {
     for (let tombol of tombolPilihan) {
         let teksOpsi = tombol.querySelector(".teks-opsi").innerText;
         if (teksOpsi !== soalAktif.jawabanBenar && jawabanSalahDihapus < 2) {
-            // Sembunyikan teks opsinya saja (label tombol A,B,C,D tetap ada pada layout)
             tombol.classList.add("terhapus-5050");
             jawabanSalahDihapus++;
         }
@@ -317,6 +332,7 @@ function gunakan5050() {
 
 function buatTanggaHadiah() {
     const moneyTreeEl = document.getElementById("money-tree");
+    if (!moneyTreeEl) return;
     moneyTreeEl.innerHTML = "";
     for (let i = daftarHadiah.length - 1; i >= 0; i--) {
         let div = document.createElement("div");
@@ -336,6 +352,7 @@ function perbaruiHighlightHadiah() {
 
 function perbaruiTeksHadiahAtas() {
     const hadiahEl = document.getElementById("hadiah-sekarang");
+    if (!hadiahEl) return;
     if (nomorPertanyaanSekarang === 1) {
         hadiahEl.innerText = "Hadiah: Rp 0";
     } else {
@@ -347,10 +364,11 @@ function resetGame() {
     nomorPertanyaanSekarang = 1;
     bantan5050Digunakan = false;
     const btn5050 = document.getElementById("btn-5050");
-    btn5050.disabled = false; btn5050.style.opacity = "1"; btn5050.innerText = "50 : 50";
+    if (btn5050) {
+        btn5050.disabled = false; btn5050.style.opacity = "1"; btn5050.innerText = "50 : 50";
+    }
     
-    // Acak ulang bank soal untuk sesi permainan baru yang segar
-    if (bankSoal) {
+    if (bankSoal.mudah.length > 0) {
         bankSoal.mudah = acakArray([...bankSoal.mudah]);
         bankSoal.sedang = acakArray([...bankSoal.sedang]);
         bankSoal.sulit = acakArray([...bankSoal.sulit]);
@@ -363,5 +381,5 @@ function resetGame() {
     }, 4000);
 }
 
-// Menjalankan inisialisasi game pertama kali saat halaman siap
+// Jalankan loading database di background dari awal
 ambilDataSoal();

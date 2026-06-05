@@ -1,0 +1,502 @@
+[
+    {
+        "pertanyaan": "Kitab nabi minor manakah di Perjanjian Lama yang seluruh isinya hanya terdiri dari satu pasal saja?",
+        "pilihan": ["Yoel", "Amos", "Obaja", "Mikha"],
+        "jawabanBenar": "Obaja"
+    },
+    {
+        "pertanyaan": "Siapakah nama raja Yehuda yang membuat bayang-bayang pada jam matahari Ahas bergerak mundur sepuluh derajat?",
+        "pilihan": ["Hizkia", "Yosia", "Manasye", "Ahas"],
+        "jawabanBenar": "Hizkia"
+    },
+    {
+        "pertanyaan": "Menurut Kitab Kejadian, siapakah tokoh yang tercatat memiliki umur tertua di bumi sebelum ia wafat?",
+        "pilihan": ["Metusalah", "Yared", "Nuh", "Enos"],
+        "jawabanBenar": "Metusalah"
+    },
+    {
+        "pertanyaan": "Berapakah usia Metusalah ketika ia meninggal dunia menurut catatan silsilah Kitab Kejadian?",
+        "pilihan": ["969 tahun", "965 tahun", "950 tahun", "895 tahun"],
+        "jawabanBenar": "969 tahun"
+    },
+    {
+        "pertanyaan": "Siapakah nama bapak leluhur dari kaum Rekhab yang menolak minum anggur dan tinggal di kemah sepanjang hidup mereka?",
+        "pilihan": ["Jonadab", "Malkhia", "Yitro", "Hananya"],
+        "jawabanBenar": "Jonadab"
+    },
+    {
+        "pertanyaan": "Di manakah letak makam asli tempat jenazah Sara, Abraham, Ishak, Ribka, Yakub, dan Lea dimakamkan?",
+        "pilihan": ["Gua Makhpela", "Sikhem", "Betlehem", "Bukit Sion"],
+        "jawabanBenar": "Gua Makhpela"
+    },
+    {
+        "pertanyaan": "Siapakah nama raja Salem dan Imam Allah Yang Mahatinggi yang memberkati Abraham setelah mengalahkan raja-raja?",
+        "pilihan": ["Melkisedek", "Abimelekh", "Kederlaomer", "Zodak"],
+        "jawabanBenar": "Melkisedek"
+    },
+    {
+        "pertanyaan": "Raja dari kota manakah Abimelekh, yang sempat mengambil Sara karena mengira ia adalah adik perempuan Abraham?",
+        "pilihan": ["Gerar", "Sodom", "Tirus", "Asdod"],
+        "jawabanBenar": "Gerar"
+    },
+    {
+        "pertanyaan": "Siapakah nama anak sulung dari Yusuf yang lahir di tanah Mesir sebelum masa kelaparan terjadi?",
+        "pilihan": ["Manasye", "Efraim", "Gerson", "Perez"],
+        "jawabanBenar": "Manasye"
+    },
+    {
+        "pertanyaan": "Benda tajam apakah yang digunakan oleh Zipora untuk menyunat anaknya demi menyelamatkan nyawa Musa?",
+        "pilihan": ["Pisau batu hitam", "Pedang perunggu", "Gunting besi", "Sembilu bambu"],
+        "jawabanBenar": "Pisau batu hitam"
+    },
+    {
+        "pertanyaan": "Siapakah dua orang pengrajin utama yang dipenuhi Roh Kudus untuk mendesain dan membangun Kemah Suci?",
+        "pilihan": ["Bezaleel dan Aholiab", "Hiram dan Hur", "Nadab dan Abihu", "Eleazar dan Itamar"],
+        "jawabanBenar": "Bezaleel dan Aholiab"
+    },
+    {
+        "pertanyaan": "Dari suku manakah Bezaleel, pengrajin utama yang membuat Tabut Perjanjian, berasal?",
+        "pilihan": ["Suku Yehuda", "Suku Dan", "Suku Lewi", "Suku Benyamin"],
+        "jawabanBenar": "Suku Yehuda"
+    },
+    {
+        "pertanyaan": "Siapakah nama pemimpin pemberontakan yang ditelan hidup-hidup oleh bumi bersama keluarganya karena menentang kepemimpinan Musa?",
+        "pilihan": ["Kora, Datan, dan Abiram", "Zimri dan Kozbi", "Nadab dan Abihu", "Sihon dan Og"],
+        "jawabanBenar": "Kora, Datan, dan Abiram"
+    },
+    {
+        "pertanyaan": "Di lembah manakah Ahan beserta seluruh keluarga dan harta bendanya dirajam serta dibakar akibat mencuri barang barang jarahan?",
+        "pilihan": ["Lembah Akhor", "Lembah Kidron", "Lembah Hinom", "Lembah Yisreel"],
+        "jawabanBenar": "Lembah Akhor"
+    },
+    {
+        "pertanyaan": "Berapakah jumlah kota perlindungan yang diperintahkan Musa dan Yosua untuk disediakan bagi orang yang tidak sengaja membunuh?",
+        "pilihan": ["6 kota", "3 kota", "12 kota", "7 kota"],
+        "jawabanBenar": "6 kota"
+    },
+    {
+        "pertanyaan": "Siapakah hakim Israel bertangan kidal yang membunuh Eglon, raja Moab, dengan menyembunyikan pedang di paha kanannya?",
+        "pilihan": ["Ehud", "Otniel", "Samgar", "Tola"],
+        "jawabanBenar": "Ehud"
+    },
+    {
+        "pertanyaan": "Siapakah nama hakim Israel yang mengalahkan 600 orang Filistin hanya dengan menggunakan tongkat penggiring lembu?",
+        "pilihan": ["Samgar", "Ehud", "Yair", "Abdon"],
+        "jawabanBenar": "Samgar"
+    },
+    {
+        "pertanyaan": "Kata sandi apakah yang digunakan oleh pasukan Yefta untuk menyaring orang-orang Efraim di penyeberangan Sungai Yordan?",
+        "pilihan": ["Syibolet", "Sibolet", "Maranatha", "Syalom"],
+        "jawabanBenar": "Syibolet"
+    },
+    {
+        "pertanyaan": "Siapakah nama anak perempuan tunggal Yefta yang terpaksa dikorbankan akibat nazar gegabah ayahnya sebelum berperang?",
+        "pilihan": ["Tidak disebutkan namanya", "Aksa", "Mikal", "Merab"],
+        "jawabanBenar": "Tidak disebutkan namanya"
+    },
+    {
+        "pertanyaan": "Siapakah nama ayah kandung dari hakim Samson yang berasal dari suku Dan?",
+        "pilihan": ["Manoah", "Isai", "Kish", "Elkana"],
+        "jawabanBenar": "Manoah"
+    },
+    {
+        "pertanyaan": "Siapakah nama suami pertama Rut sebelum ia mengungsi ke Betlehem dan menikah dengan Boas?",
+        "pilihan": ["Mahlon", "Kilyon", "Elimelekh", "Chilion"],
+        "jawabanBenar": "Mahlon"
+    },
+    {
+        "pertanyaan": "Siapakah nama istri pertama Daud, anak perempuan Raja Saul, yang menyelamatkannya dari jendela saat hendak dibunuh?",
+        "pilihan": ["Mikal", "Merab", "Abigail", "Batsyeba"],
+        "jawabanBenar": "Mikal"
+    },
+    {
+        "pertanyaan": "Siapakah nama suami Abigail terdahulu, seorang kaya yang bebal yang mati setelah menolak memberikan bantuan makanan kepada pasukan Daud?",
+        "pilihan": ["Nabal", "Uria", "Isboset", "Doeg"],
+        "jawabanBenar": "Nabal"
+    },
+    {
+        "pertanyaan": "Siapakah orang Edom yang membantai 85 orang imam di Nob atas perintah ketat dari Raja Saul?",
+        "pilihan": ["Doeg", "Abner", "Yoab", "Ahitofel"],
+        "jawabanBenar": "Doeg"
+    },
+    {
+        "pertanyaan": "Siapakah nama hamba berkaki timpang, anak Yonatan, yang dirawat oleh Daud di istananya demi janjinya pada Yonatan?",
+        "pilihan": ["Mefiboset", "Isboset", "Asael", "Ziba"],
+        "jawabanBenar": "Mefiboset"
+    },
+    {
+        "pertanyaan": "Siapakah penasihat ulung Daud yang membelot kepada Absalom, namun akhirnya gantung diri setelah nasihatnya tidak dituruti?",
+        "pilihan": ["Ahitofel", "Husai", "Abiatar", "Zadok"],
+        "jawabanBenar": "Ahitofel"
+    },
+    {
+        "pertanyaan": "Siapakah nama panglima perang setia Daud yang membunuh Absalom meskipun Daud telah berpesan untuk melindunginya?",
+        "pilihan": ["Yoab", "Abisai", "Benaaya", "Amasa"],
+        "jawabanBenar": "Yoab"
+    },
+    {
+        "pertanyaan": "Di area tanah milik siapakah Daud mendirikan mezbah untuk menghentikan tulah pemusnah, yang kelak menjadi lokasi Bait Allah?",
+        "pilihan": ["Arauna (Ornan) orang Yebus", "Hiram raja Tirus", "Nabot orang Yisreel", "Obed-Edom"],
+        "jawabanBenar": "Arauna (Ornan) orang Yebus"
+    },
+    {
+        "pertanyaan": "Siapakah permaisuri atau ratu yang memerintah Yehuda secara ilegal dan membantai hampir seluruh keturunan raja setelah kematian anaknya, Ahazia?",
+        "pilihan": ["Atalya", "Izebel", "Wasti", "Herodias"],
+        "jawabanBenar": "Atalya"
+    },
+    {
+        "pertanyaan": "Siapakah bayi raja keturunan Daud yang disembunyikan oleh bibinya di Bait Allah selama enam tahun dari amukan Ratu Atalya?",
+        "pilihan": ["Yoas", "Yosia", "Hizkia", "Uzia"],
+        "jawabanBenar": "Yoas"
+    },
+    {
+        "pertanyaan": "Siapakah nama keledai jantan tunggangan Bileam yang berbicara dengannya dalam bahasa manusia?",
+        "pilihan": ["Alkitab tidak menyebutkan nama keledai tersebut", "Ziba", "Buraq", "Syam"],
+        "jawabanBenar": "Alkitab tidak menyebutkan nama keledai tersebut"
+    },
+    {
+        "pertanyaan": "Nabi manakah yang dihina oleh sekelompok anak muda karena kepalanya yang botak, lalu mengutuk mereka hingga mereka dicabik oleh dua ekor beruang?",
+        "pilihan": ["Elisa", "Elia", "Esaia", "Amos"],
+        "jawabanBenar": "Elisa"
+    },
+    {
+        "pertanyaan": "Siapakah raja Israel Utara yang menghapus penyembahan Baal di Samaria tetapi tetap mempertahankan pemujaan lembu emas Yerobeam?",
+        "pilihan": ["Yehu", "Yoas", "Ahab", "Pekah"],
+        "jawabanBenar": "Yehu"
+    },
+    {
+        "pertanyaan": "Siapakah nama nabi yang diperintahkan Allah untuk berjalan telanjang dan tidak beralas kaki selama tiga tahun sebagai tanda nubuatan terhadap Mesir?",
+        "pilihan": ["Yesaya", "Yeremia", "Yehezkiel", "Hosea"],
+        "jawabanBenar": "Yesaya"
+    },
+    {
+        "pertanyaan": "Nabi manakah yang diperintahkan Allah tidur miring ke kiri selama 390 hari dan miring ke kanan selama 40 hari sebagai lambang hukuman dosa?",
+        "pilihan": ["Yehezkiel", "Yeremia", "Daniel", "Zakharias"],
+        "jawabanBenar": "Yehezkiel"
+    },
+    {
+        "pertanyaan": "Siapakah nama sekretaris setia Nabi Yeremia yang mencatat serta membacakan gulungan kitab nubuatannya di Bait Allah?",
+        "pilihan": ["Barukh bin Neria", "Seraya", "Gedalya", "Hanamel"],
+        "jawabanBenar": "Barukh bin Neria"
+    },
+    {
+        "pertanyaan": "Siapakah orang Etiopia, pegawai istana raja, yang menarik Nabi Yeremia keluar dari sumur lumpur yang dalam?",
+        "pilihan": ["Ebed-Melekh", "Panyas", "Seba", "Kasdim"],
+        "jawabanBenar": "Ebed-Melekh"
+    },
+    {
+        "pertanyaan": "Siapakah gubernur Yehuda yang diangkat oleh Babel setelah runtuhnya Yerusalem, yang kemudian dibunuh oleh Ismael bin Netanya?",
+        "pilihan": ["Gedalya", "Zorobabel", "Nehemia", "Matanya"],
+        "jawabanBenar": "Gedalya"
+    },
+    {
+        "pertanyaan": "Siapakah nama kasim istana Persia yang bertugas menjaga para wanita dan memberikan perawatan kecantikan kepada Ester?",
+        "pilihan": ["Hegai", "Saasgas", "Karsena", "Muman"],
+        "jawabanBenar": "Hegai"
+    },
+    {
+        "pertanyaan": "Apa nama pesta tahunan Yahudi yang ditetapkan untuk memperingati keselamatan bangsa Yahudi dari pembantaian massal Haman?",
+        "pilihan": ["Hari raya Purim", "Hari raya Pondok Daun", "Hari raya Paskah", "Hari raya Pentakosta"],
+        "jawabanBenar": "Hari raya Purim"
+    },
+    {
+        "pertanyaan": "Siapakah nama tiga anak perempuan Ayub yang lahir setelah masa pemulihan penderitaannya, yang tercatat sebagai wanita tercantik di seluruh negeri?",
+        "pilihan": ["Yemima, Kezia, dan Keren-Hapukh", "Merab, Mikal, dan Aksa", "Lea, Rahel, dan Bilha", "Ada, Zila, dan Basmat"],
+        "jawabanBenar": "Yemima, Kezia, dan Keren-Hapukh"
+    },
+    {
+        "pertanyaan": "Kitab puisi manakah di Perjanjian Lama yang sama sekali tidak memuat atau menyebutkan nama 'Allah' atau 'Tuhan' di dalamnya?",
+        "pilihan": ["Kidung Agung", "Pengkhotbah", "Ratapan", "Amsal"],
+        "jawabanBenar": "Kidung Agung"
+    },
+    {
+        "pertanyaan": "Nabi minor manakah yang menyampaikan nubuatannya dalam bentuk dialog langsung dengan Allah mengenai ketidakpahaman atas ketetapan-Nya?",
+        "pilihan": ["Habakuk", "Zefanya", "Hagai", "Malakhi"],
+        "jawabanBenar": "Habakuk"
+    },
+    {
+        "pertanyaan": "Nabi minor manakah yang bernubuat secara khusus menentang kecongkakan bangsa Edom yang tinggal di bukit-bukit batu?",
+        "pilihan": ["Obaja", "Nahum", "Hosea", "Mikha"],
+        "jawabanBenar": "Obaja"
+    },
+    {
+        "pertanyaan": "Kitab nabi minor manakah yang fokus utamanya berisi nubuatan kutuk atas kehancuran total kota Niniwe?",
+        "pilihan": ["Nahum", "Yunus", "Yoel", "Amos"],
+        "jawabanBenar": "Nahum"
+    },
+    {
+        "pertanyaan": "Siapakah nabi yang menegur keras bangsa Israel pasca-pembuangan karena mereka membangun rumah mewah sementara Bait Allah dibiarkan runtuh?",
+        "pilihan": ["Hagai", "Zakharias", "Maleakhi", "Ezra"],
+        "jawabanBenar": "Hagai"
+    },
+    {
+        "pertanyaan": "Berapakah jumlah total bab atau pasal yang menyusun Kitab Yesaya?",
+        "pilihan": ["66 pasal", "50 pasal", "150 pasal", "40 pasal"],
+        "jawabanBenar": "66 pasal"
+    },
+    {
+        "pertanyaan": "Siapakah nama raja Persia yang digerakkan hatinya oleh Allah untuk mengizinkan rombongan pertama Yahudi pulang mendirikan Bait Allah?",
+        "pilihan": ["Koresh", "Darius", "Artahsasta", "Xerxes"],
+        "jawabanBenar": "Koresh"
+    },
+    {
+        "pertanyaan": "Siapakah keturunan Daud yang menjadi pemimpin sipil (bupati) dalam rombongan pertama pemulihan Bait Allah dari Babel?",
+        "pilihan": ["Zorobabel", "Yesua", "Nehemia", "Ezra"],
+        "jawabanBenar": "Zorobabel"
+    },
+    {
+        "pertanyaan": "Siapakah nama Imam Besar yang bekerja sama erat dengan Zorobabel dalam membangun kembali Bait Suci kedua?",
+        "pilihan": ["Yesua (Yosua) bin Yozadak", "Zadok", "Hilkia", "Eliasib"],
+        "jawabanBenar": "Yesua (Yosua) bin Yozadak"
+    },
+    {
+        "pertanyaan": "Menurut silsilah Injil Matius pasal 1, berapakah jumlah total keturunan dari Abraham sampai ke pembuangan Babel?",
+        "pilihan": ["28 generasi", "14 generasi", "42 generasi", "30 generasi"],
+        "jawabanBenar": "28 generasi"
+    },
+    {
+        "pertanyaan": "Berapakah pembagian rombongan silsilah keturunan yang dibuat Matius dari Abraham hingga Kristus?",
+        "pilihan": ["Tiga kali 14 keturunan", "Dua kali 12 keturunan", "Empat kali 10 keturunan", "Tujuh kali 7 keturunan"],
+        "jawabanBenar": "Tiga kali 14 keturunan"
+    },
+    {
+        "pertanyaan": "Siapakah nama imam dari golongan Abia yang merupakan ayah kandung dari Yohanes Pembaptis?",
+        "pilihan": ["Zakharias", "Simeon", "Kayafas", "Anas"],
+        "jawabanBenar": "Zakharias"
+    },
+    {
+        "pertanyaan": "Berapakah jumlah total kata 'Sebab itu ketahuilah...' dalam Sepuluh Perintah Allah? (Pertanyaan jebakan struktur teks)",
+        "pilihan": ["Tidak ada frasa tersebut", "Satu", "Dua", "Sepuluh"],
+        "jawabanBenar": "Tidak ada frasa tersebut"
+    },
+    {
+        "pertanyaan": "Siapakah nama nabi perempuan tua yang menyambut bayi Yesus di Bait Allah bersama dengan Simeon?",
+        "pilihan": ["Anna binti Fanuel", "Elisabet", "Hulda", "Debora"],
+        "jawabanBenar": "Anna binti Fanuel"
+    },
+    {
+        "pertanyaan": "Berasal dari suku manakah nabi perempuan Anna binti Fanuel yang setia berdoa siang malam di Bait Allah?",
+        "pilihan": ["Suku Asyer", "Suku Lewi", "Suku Yehuda", "Suku Benyamin"],
+        "jawabanBenar": "Suku Asyer"
+    },
+    {
+        "pertanyaan": "Berapakah jumlah bakul yang dikumpulkan murid-murid setelah Yesus memberi makan 4000 orang laki-laki?",
+        "pilihan": ["7 bakul", "12 bakul", "5 bakul", "10 bakul"],
+        "jawabanBenar": "7 bakul"
+    },
+    {
+        "pertanyaan": "Di wilayah manakah Yesus mengusir setan Legiun yang kemudian berpindah masuk ke dalam kawanan babi?",
+        "pilihan": ["Gerasa (Gadara)", "Kapernaum", "Khorazim", "Betsaida"],
+        "jawabanBenar": "Gerasa (Gadara)"
+    },
+    {
+        "pertanyaan": "Berapakah jumlah perkiraan kawanan babi yang terjun dari tepi jurang ke dalam danau dalam kisah pengusiran setan Legiun?",
+        "pilihan": ["Kira-kira 2000 ekor", "Kira-kira 1000 ekor", "Kira-kira 5000 ekor", "Kira-kira 500 ekor"],
+        "jawabanBenar": "Kira-kira 2000 ekor"
+    },
+    {
+        "pertanyaan": "Siapakah nama kepala rumah ibadat yang anaknya perempuan dibangkitkan Yesus dengan seruan 'Talita kum'?",
+        "pilihan": ["Yairus", "Zakeus", "Nikodemus", "Kornelius"],
+        "jawabanBenar": "Yairus"
+    },
+    {
+        "pertanyaan": "Apakah arti harfiah dari kalimat bahasa Aram 'Talita kum' yang diucapkan Yesus?",
+        "pilihan": ["Hai anak muda, Aku berkata kepadamu, bangkitlah!", "Gadis kecil, bangunlah!", "Efata, terbukalah!", "Damai sejahteralah bagimu!"],
+        "jawabanBenar": "Gadis kecil, bangunlah!"
+    },
+    {
+        "pertanyaan": "Di dekat pintu gerbang kota manakah Yesus membangkitkan anak muda tunggal dari seorang janda?",
+        "pilihan": ["Nain", "Yizreel", "Yerikho", "Betani"],
+        "jawabanBenar": "Nain"
+    },
+    {
+        "pertanyaan": "Siapakah nama perempuan yang menuangkan minyak narwastu murni yang mahal ke atas kepala Yesus di rumah Simon si kusta?",
+        "pilihan": ["Maria saudara Lazarus", "Maria Magdalena", "Yohana", "Susana"],
+        "jawabanBenar": "Maria saudara Lazarus"
+    },
+    {
+        "pertanyaan": "Berapakah nilai taksiran harga minyak narwastu tersebut menurut protes keberatan yang diajukan oleh Yudas Iskariot?",
+        "pilihan": ["300 dinar", "30 dinar", "50 dinar", "100 dinar"],
+        "jawabanBenar": "300 dinar"
+    },
+    {
+        "pertanyaan": "Apakah arti harfiah dari nama tempat 'Getsemani', tempat Yesus bergumul dalam doa?",
+        "pilihan": ["Tempat pemerasan minyak", "Bukit doa", "Kebun zaitun", "Lembah air mata"],
+        "jawabanBenar": "Tempat pemerasan minyak"
+    },
+    {
+        "pertanyaan": "Siapakah nama hamba Imam Besar yang telinga kanannya putus ditebas pedang oleh Petrus di Getsemani?",
+        "pilihan": ["Malkhus", "Anas", "Kayafas", "Aleksander"],
+        "jawabanBenar": "Malkhus"
+    },
+    {
+        "pertanyaan": "Siapakah nama mertua Kayafas, mantan Imam Besar, yang menginterogasi Yesus paling pertama setelah penangkapan?",
+        "pilihan": ["Anas", "Gamaliel", "Ismael", "Teofilus"],
+        "jawabanBenar": "Anas"
+    },
+    {
+        "pertanyaan": "Apakah arti harfiah dari nama tempat 'Golgota', lokasi tiang salib Yesus ditegakkan?",
+        "pilihan": ["Tempat tengkorak", "Bukit kutukan", "Tempat kesedihan", "Lembah sunyi"],
+        "jawabanBenar": "Tempat tengkorak"
+    },
+    {
+        "pertanyaan": "Seruan kesedihan 'Eli, Eli, lama sabakhtani' yang diucapkan Yesus di salib merujuk pada kutipan kitab apa?",
+        "pilihan": ["Mazmur 22", "Yesaya 53", "Ratapan 1", "Sakaraya 12"],
+        "jawabanBenar": "Mazmur 22"
+    },
+    {
+        "pertanyaan": "Berapakah perkiraan jumlah jarak dalam ukuran stadia antara Yerusalem dengan desa Emaus dalam perjalanan dua murid?",
+        "pilihan": ["60 stadia", "100 stadia", "20 stadia", "120 stadia"],
+        "jawabanBenar": "60 stadia"
+    },
+    {
+        "pertanyaan": "Di tepi danau manakah Yesus yang bangkit menampakkan diri dan menyediakan sarapan roti serta ikan bakar bagi para murid?",
+        "pilihan": ["Danau Tiberias (Galilea)", "Danau Genesaret", "Laut Mati", "Danau Merom"],
+        "jawabanBenar": "Danau Tiberias (Galilea)"
+    },
+    {
+        "pertanyaan": "Berapakah jumlah total ikan besar yang berhasil ditarik oleh jala murid-murid atas perintah Yesus pasca-kebangkitan?",
+        "pilihan": ["153 ekor", "120 ekor", "70 ekor", "144 ekor"],
+        "jawabanBenar": "153 ekor"
+    },
+    {
+        "pertanyaan": "Siapakah nama penguasa wilayah (raja) yang membunuh Rasul Yakobus, saudara Yohanes, dengan pedang di Yerusalem?",
+        "pilihan": ["Herodes Agrippa I", "Herodes Antipas", "Herodes Agung", "Herodes Agrippa II"],
+        "jawabanBenar": "Herodes Agrippa I"
+    },
+    {
+        "pertanyaan": "Siapakah nama perempuan asisten rumah tangga yang saking girangnya lupa membuka pintu gerbang saat mendengar suara Petrus lolos dari penjara?",
+        "pilihan": ["Rode", "Lidia", "Tabita", "Safira"],
+        "jawabanBenar": "Rode"
+    },
+    {
+        "pertanyaan": "Siapakah nama perempuan di Yope yang banyak berbuat kebajikan membuat baju jemaat, yang dibangkitkan Petrus dari kematian?",
+        "pilihan": ["Tabita (Dorkas)", "Rode", "Sintike", "Eodia"],
+        "jawabanBenar": "Tabita (Dorkas)"
+    },
+    {
+        "pertanyaan": "Di kota manakah Paulus dilempari batu oleh massa hingga disangka sudah mati lalu diseret ke luar kota?",
+        "pilihan": ["Listra", "Derbe", "Ikonium", "Antiokhia"],
+        "jawabanBenar": "Listra"
+    },
+    {
+        "pertanyaan": "Siapakah nama pemuda yang tertidur di jendela saat mendengarkan khotbah Paulus yang panjang, lalu jatuh dari tingkat tiga hingga mati?",
+        "pilihan": ["Eutikhus", "Tikhikus", "Trofilus", "Aristarhus"],
+        "jawabanBenar": "Eutikhus"
+    },
+    {
+        "pertanyaan": "Di kota manakah Eutikhus jatuh dari jendela dan kemudian dibangkitkan kembali oleh Paulus?",
+        "pilihan": ["Troas", "Milétus", "Efesus", "Filipi"],
+        "jawabanBenar": "Troas"
+    },
+    {
+        "pertanyaan": "Siapakah penyihir Yahudi di Pafos, pulau Siprus, yang dibuat buta sementara oleh Paulus karena menghalangi gubernur percaya Kristus?",
+        "pilihan": ["Elimas (Bar-Yesus)", "Simon si penyihir", "Skewa", "Hermes"],
+        "jawabanBenar": "Elimas (Bar-Yesus)"
+    },
+    {
+        "pertanyaan": "Siapakah nama gubernur (prokonsul) Romawi di Siprus yang akhirnya percaya kepada Kristus setelah melihat Elimas menjadi buta?",
+        "pilihan": ["Sergius Paulus", "Galio", "Felix", "Festus"],
+        "jawabanBenar": "Sergius Paulus"
+    },
+    {
+        "pertanyaan": "Siapakah nama Prokonsul di Akhaia yang menolak mengadili Paulus karena menganggapnya hanya perselisihan kata dan hukum Yahudi?",
+        "pilihan": ["Galio", "Felix", "Festus", "Publius"],
+        "jawabanBenar": "Galio"
+    },
+    {
+        "pertanyaan": "Siapakah nama kepala pulau Malta yang menyambut Paulus dengan ramah setelah kapal mereka karam di sana?",
+        "pilihan": ["Publius", "Yulius", "Gaius", "Klemens"],
+        "jawabanBenar": "Publius"
+    },
+    {
+        "pertanyaan": "Ular beludak jenis apakah yang memagut tangan Paulus di pulau Malta namun sama sekali tidak menimbulkan racun cedera?",
+        "pilihan": ["Alkitab hanya menyebut ular beludak tanpa rincian spesies", "Ular kobra", "Ular derik", "Ular sanca"],
+        "jawabanBenar": "Alkitab hanya menyebut ular beludak tanpa rincian spesies"
+    },
+    {
+        "pertanyaan": "Siapakah dua orang pengikut Kristus, suami istri pembuat tenda, yang membimbing Teolog Apolos secara lebih teliti di Efesus?",
+        "pilihan": ["Akuila dan Priskila", "Andronikus dan Yunias", "Ananias dan Safira", "Filemon dan Apfia"],
+        "jawabanBenar": "Akuila dan Priskila"
+    },
+    {
+        "pertanyaan": "Siapakah nama nenek kandung dari Timotius yang memiliki iman tulus keturunan Yahudi?",
+        "pilihan": ["Lois", "Eunike", "Febe", "Persis"],
+        "jawabanBenar": "Lois"
+    },
+    {
+        "pertanyaan": "Siapakah nama diaken perempuan dari jemaat di Khenkreae yang direkomendasikan oleh Paulus di akhir Surat Roma?",
+        "pilihan": ["Febe", "Lidia", "Priskila", "Yunia"],
+        "jawabanBenar": "Febe"
+    },
+    {
+        "pertanyaan": "Siapakah dua orang wanita di jemaat Filipi yang ditegur Paulus secara pribadi agar sehati sepikir dalam Tuhan?",
+        "pilihan": ["Eodia dan Sintike", "Priskila dan Apfia", "Lois dan Eunike", "Tryfena dan Tryfosa"],
+        "jawabanBenar": "Eodia dan Sintike"
+    },
+    {
+        "pertanyaan": "Surat Perjanjian Baru manakah yang ditujukan khusus kepada seorang Kristen kaya pemilik hamba bernama Filemon?",
+        "pilihan": ["Filemon", "Titus", "Kolose", "Galatia"],
+        "jawabanBenar": "Filemon"
+    },
+    {
+        "pertanyaan": "Siapakah nama bapa leluhur imam Perjanjian Lama yang silsilahnya tidak memiliki bapak, ibu, maupun awal dan akhir hari?",
+        "pilihan": ["Melkisedek", "Harun", "Zadok", "Musa"],
+        "jawabanBenar": "Melkisedek"
+    },
+    {
+        "pertanyaan": "Menurut Surat Ibrani, di manakah posisi Kemah Suci sejati yang dimasuki Kristus sebagai Imam Besar Agung?",
+        "pilihan": ["Di dalam surga sendiri", "Di Yerusalem Baru", "Di dalam hati orang percaya", "Di bait Allah bumi"],
+        "jawabanBenar": "Di dalam surga sendiri"
+    },
+    {
+        "pertanyaan": "Surat Am atau Surat Umum manakah yang memuat kisah perebutan mayat Musa antara Malaikat Agung Mikael dengan Iblis?",
+        "pilihan": ["Yudas", "2 Petrus", "Yakobus", "1 Yohanes"],
+        "jawabanBenar": "Yudas"
+    },
+    {
+        "pertanyaan": "Siapakah nama tokoh kuno keturunan ketujuh dari Adam yang nubuatannya tentang akhir zaman dikutip di dalam Surat Yudas?",
+        "pilihan": ["Henokh", "Metusalah", "Lamekh", "Yared"],
+        "jawabanBenar": "Henokh"
+    },
+    {
+        "pertanyaan": "Siapakah nama pimpinan jemaat di Asia Kecil yang dikecam dalam 3 Yohanes karena suka mendominasi dan menolak rasul?",
+        "pilihan": ["Diotrefes", "Gayus", "Demetrius", "Nikolaus"],
+        "jawabanBenar": "Diotrefes"
+    },
+    {
+        "pertanyaan": "Kepada jemaat di kota manakah Yesus memberikan teguran keras karena kondisi rohani mereka yang suam-suam kuku?",
+        "pilihan": ["Laodikia", "Sardis", "Smirna", "Filadelfia"],
+        "jawabanBenar": "Laodikia"
+    },
+    {
+        "pertanyaan": "Kepada jemaat di kota manakah Yesus berjanji akan memberikan 'batu putih' yang di atasnya tertulis nama baru bagi yang menang?",
+        "pilihan": ["Pergamus", "Tiatira", "Efesus", "Sardis"],
+        "jawabanBenar": "Pergamus"
+    },
+    {
+        "pertanyaan": "Siapakah nama wanita pengajar sesat di Tiatira yang dikecam dalam Kitab Wahyu karena menyesatkan jemaat untuk berzina?",
+        "pilihan": ["Izebel", "Atalya", "Herodias", "Salome"],
+        "jawabanBenar": "Izebel"
+    },
+    {
+        "pertanyaan": "Berapakah jumlah total pintu gerbang berhiaskan mutiara tunggal yang menyusun kota kudus Yerusalem Baru di Kitab Wahyu?",
+        "pilihan": ["12 pintu gerbang", "4 pintu gerbang", "7 pintu gerbang", "24 pintu gerbang"],
+        "jawabanBenar": "12 pintu gerbang"
+    },
+    {
+        "pertanyaan": "Batu permata jenis apakah yang menyusun dasar fondasi pertama dari tembok Yerusalem Baru dalam penglihatan Yohanes?",
+        "pilihan": ["Yaspis", "Nilam", "Zamrud", "Kalsedon"],
+        "jawabanBenar": "Yaspis"
+    },
+    {
+        "pertanyaan": "Berapakah jumlah total tua-tua yang duduk di sekeliling takhta Allah memakai mahkota emas dalam Kitab Wahyu?",
+        "pilihan": ["24 tua-tua", "12 tua-tua", "7 tua-tua", "144 tua-tua"],
+        "jawabanBenar": "24 tua-tua"
+    },
+    {
+        "pertanyaan": "Menurut Kitab Wahyu pasal 13, berapakah bilangan angka manusia yang melambangkan lambang dari nama binatang buas akhir zaman?",
+        "pilihan": ["666", "777", "888", "999"],
+        "jawabanBenar": "666"
+    }
+]

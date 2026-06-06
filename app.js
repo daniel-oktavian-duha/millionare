@@ -79,6 +79,10 @@ function sesuaikanMusikLatarKategori(nomor) {
     } else {
         gantiMusikLatar("64000.mp3", true, 0.5);
     }
+    // Pengaman: Pastikan musik yang aktif benar-benar berputar dari detik berjalan
+    if (musikLatarAktif) {
+        musikLatarAktif.play().catch(e => console.log("Audio play dipicu ulang"));
+    }
 }
 
 // ==========================================

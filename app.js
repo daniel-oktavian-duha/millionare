@@ -15,11 +15,8 @@ let soalAktif = null;
 let bantan5050Digunakan = false;
 let tombolTerpilihSementara = null;
 let intervalAyat = null;
-
-// Menyimpan indeks antrean soal aktif per kategori agar tidak duplikat
 let indeksSoalKategori = { mudah: 0, sedang: 0, sulit: 0 };
 
-// Fungsi Bantuan untuk mengacak Array (Algoritma Fisher-Yates)
 function acakArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -29,42 +26,58 @@ function acakArray(array) {
 }
 
 // ==========================================
-// KONTROL AUDIO UTAMA
+// AUDIO ENGINE OPTIMIZED (PRELOADED & RESPONSIVE)
 // ==========================================
+const AUDIO_BANK = {};
+const daftarAudioFile = [
+    "begin.mp3", "100-1000.mp3", "2000-32000.mp3", 
+    "64000.mp3", "final.mp3", "correct.mp3", "wrong.mp3"
+];
+
+// Pre-load semua audio ke memory sejak awal agar responsive tanpa delay
+daftarAudioFile.forEach(namaFile => {
+    AUDIO_BANK[namaFile] = new Audio(`sound/${namaFile}`);
+    AUDIO_BANK[namaFile].preload = "auto";
+});
+
 let musikLatarAktif = null;
 
 function putarSuara(namaFile, loop = false, volume = 1.0) {
-    let audio = new Audio(`sound/${namaFile}`);
+    const audio = AUDIO_BANK[namaFile];
+    if (!audio) return null;
+    
     audio.loop = loop;
     audio.volume = volume;
-    audio.play().catch(e => console.log("Audio play dicegah oleh browser."));
+    audio.currentTime = 0; // Reset ke detik ke-0 agar instan langsung bunyi
+    audio.play().catch(e => console.log("Audio play dicegah:", e));
     return audio;
 }
 
-function gantiMusikLatar(namaFile, loop = true, volume = 0.6) {
-    if (musikLatarAktif) {
-        let audioLama = musikLatarAktif;
-        let sisaVolume = audioLama.volume;
-        let fadeInterval = setInterval(() => {
-            if (sisaVolume > 0.1) {
-                sisaVolume -= 0.1;
-                audioLama.volume = sisaVolume;
-            } else {
-                clearInterval(fadeInterval);
-                audioLama.pause();
-            }
-        }, 50);
+// Menghentikan audio secara instan dan bersih tanpa jeda/sisa suara
+function hentikanSuara(namaFile) {
+    const audio = AUDIO_BANK[namaFile];
+    if (audio) {
+        audio.pause();
+        audio.currentTime = 0;
     }
+}
+
+function gantiMusikLatar(namaFile, loop = true, volume = 0.6) {
+    // Matikan semua audio musik latar yang berpotensi tabrakan
+    ["100-1000.mp3", "2000-32000.mp3", "64000.mp3", "final.mp3", "begin.mp3"].forEach(file => {
+        if (file !== namaFile) hentikanSuara(file);
+    });
+
     musikLatarAktif = putarSuara(namaFile, loop, volume);
 }
 
 function sesuaikanMusikLatarKategori(nomor) {
     if (nomor <= 5) {
-        gantiMusikLatar("100-1000.mp3", true, 0.6);
+        gantiMusikLatar("100-1000.mp3", true, 0.5);
     } else if (nomor <= 10) {
-        gantiMusikLatar("2000-32000.mp3", true, 0.6);
+        gantiMusikLatar("2000-32000.mp3", true, 0.5);
     } else {
-        gantiMusikLatar("64000.mp3", true, 0.6);
+        gantiMusikLatar("64000.mp3", true, 0.5);
     }
 }
 
@@ -76,7 +89,6 @@ function gantiAyatAcak() {
     if (!areaAyat || typeof daftarAyat === 'undefined' || daftarAyat.length === 0) return;
 
     areaAyat.style.opacity = "0"; 
-
     setTimeout(() => {
         const acak = daftarAyat[Math.floor(Math.random() * daftarAyat.length)];
         areaAyat.innerHTML = `"${acak.teks}" <span class="ayat-referensi">— ${acak.ref}</span>`;
@@ -185,8 +197,7 @@ async function ambilDataSoal() {
         buatTanggaHadiah();
 
     } catch (error) {
-        console.error("Error loading dynamic database:", error);
-        document.getElementById("teks-pertanyaan").innerText = "Gagal memuat komponen database dynamic.";
+        console.error("Error loading database:", error);
     }
 }
 
@@ -197,18 +208,15 @@ function mulaiPermainanPertamaKali() {
     const btnUtama = document.getElementById("btn-pemicu-utama");
     if (btnUtama) {
         btnUtama.disabled = true;
-        btnUtama.innerText = "LOADING GAME..."; // Berubah jadi loading screen
+        btnUtama.innerText = "LOADING GAME...";
     }
 
-    // Suara jingle intro mulai berjalan bersamaan dengan loading screen
     putarSuara("begin.mp3", false, 0.8); 
     mulaiSistemAyat(); 
     
-    // Beri jeda 4 detik agar lagu intro selesai, baru muat soal dan hilangkan overlay
     setTimeout(() => {
         const layarMulai = document.getElementById("layar-mulai");
-        if (layarMulai) layarMulai.style.display = "none"; // Buka halaman kuis
-        
+        if (layarMulai) layarMulai.style.display = "none"; 
         muatSoalBaru();
     }, 4000);
 }
@@ -222,16 +230,16 @@ function dapatkanKategoriKesulitan(nomor) {
 function muatSoalBaru() {
     perbaruiHighlightHadiah();
     perbaruiTeksHadiahAtas();
+    
+    // Setel ulang musik background sesuai nomor pertanyaan baru secara responsif
     sesuaikanMusikLatarKategori(nomorPertanyaanSekarang); 
 
     let kategori = dapatkanKategoriKesulitan(nomorPertanyaanSekarang);
     let kumpulanSoal = bankSoal[kategori];
-    
     let indeksSekarang = indeksSoalKategori[kategori];
     let soalTerpilih = kumpulanSoal[indeksSekarang];
     
     indeksSoalKategori[kategori]++; 
-    
     let pilihanDiacak = acakArray([...soalTerpilih.pilihan]);
 
     soalAktif = { pertanyaan: soalTerpilih.pertanyaan, pilihan: pilihanDiacak, jawabanBenar: soalTerpilih.jawabanBenar };
@@ -251,12 +259,17 @@ function cekJawaban(tombolDiklik) {
     tombolTerpilihSementara = tombolDiklik;
     tombolTerpilihSementara.classList.add("terpilih");
     
+    // Berubah instan ke musik final/pikir tanpa delay
     gantiMusikLatar("final.mp3", true, 0.7); 
     document.getElementById("modal-konfirmasi").style.display = "flex";
 }
 
 document.getElementById("btn-yakin-ya").addEventListener("click", () => {
     document.getElementById("modal-konfirmasi").style.display = "none";
+    
+    // KUNCI UTAMA: Matikan sound final secepat kilat tepat saat tombol "YA" diklik
+    hentikanSuara("final.mp3"); 
+    
     prosesEksekusiJawaban();
 });
 
@@ -273,9 +286,8 @@ function prosesEksekusiJawaban() {
     tombolTerpilihSementara.classList.remove("terpilih");
 
     if (jawabanPemain === soalAktif.jawabanBenar) {
-        if (musikLatarAktif) musikLatarAktif.pause(); 
+        // Mainkan efek suara jawaban benar instan
         putarSuara("correct.mp3", false, 0.9); 
-        
         tombolTerpilihSementara.classList.add("benar-kedip");
         let levelSelesai = nomorPertanyaanSekarang;
 
@@ -288,28 +300,28 @@ function prosesEksekusiJawaban() {
                 
                 tampilkanNotifikasiAutoclose(pesanMilestone, "milestone", 5000);
                 setTimeout(() => { if(levelSelesai === 15) { resetGame(); } else { nomorPertanyaanSekarang++; muatSoalBaru(); } }, 5100);
-            }, 3000);
+            }, 2000);
         } else {
-            tampilkanNotifikasiAutoclose(`Jawaban BENAR! Hadiah Anda meningkat ke ${daftarHadiah[levelSelesai-1]}!`, "sukses", 2800);
-            setTimeout(() => { tombolTerpilihSementara.classList.remove("benar-kedip"); nomorPertanyaanSekarang++; muatSoalBaru(); }, 3000);
+            tampilkanNotifikasiAutoclose(`Jawaban BENAR! Hadiah Anda meningkat ke ${daftarHadiah[levelSelesai-1]}!`, "sukses", 2000);
+            setTimeout(() => { tombolTerpilihSementara.classList.remove("benar-kedip"); nomorPertanyaanSekarang++; muatSoalBaru(); }, 2200);
         }
     } else {
-        if (musikLatarAktif) musikLatarAktif.pause();
+        // Mainkan efek suara jawaban salah instan
         putarSuara("wrong.mp3", false, 0.9); 
-
         tombolTerpilihSementara.classList.add("salah-kedip");
+        
         semuaTombol.forEach(btn => {
             if (btn.querySelector(".teks-opsi").innerText === soalAktif.jawabanBenar) {
                 btn.style.background = "#2ec4b6"; btn.style.color = "#000";
                 btn.querySelector(".label-huruf").style.color = "#000";
             }
         });
-        tampilkanNotifikasiAutoclose(`Jawaban SALAH! Game Over. Terhenti di level ${nomorPertanyaanSekarang}.`, "gagal", 3800);
+        tampilkanNotifikasiAutoclose(`Jawaban SALAH! Game Over. Terhenti di level ${nomorPertanyaanSekarang}.`, "gagal", 3500);
         setTimeout(() => { 
             tombolTerpilihSementara.classList.remove("salah-kedip"); 
             semuaTombol.forEach(btn => { btn.style.background = ""; btn.style.color = ""; }); 
             resetGame(); 
-        }, 4000);
+        }, 3600);
     }
 }
 
@@ -369,8 +381,10 @@ function perbaruiTeksHadiahAtas() {
     }
 }
 
-// Reset Game Otomatis Memanggil Kembali Overlay Pembuka dengan Mode Loading
 function resetGame() {
+    // Stop semua musik yang sedang berjalan saat kembali ke awal game
+    daftarAudioFile.forEach(file => hentikanSuara(file));
+
     nomorPertanyaanSekarang = 1;
     bantan5050Digunakan = false;
     
@@ -379,14 +393,11 @@ function resetGame() {
         btn5050.disabled = false; btn5050.style.opacity = "1"; btn5050.innerText = "50 : 50";
     }
     
-    if (bankSoal.mudah.length > 0) {
-        bankSoal.mudah = acakArray([...bankSoal.mudah]);
-        bankSoal.sedang = acakArray([...bankSoal.sedang]);
-        bankSoal.sulit = acakArray([...bankSoal.sulit]);
-    }
+    bankSoal.mudah = acakArray([...bankSoal.mudah]);
+    bankSoal.sedang = acakArray([...bankSoal.sedang]);
+    bankSoal.sulit = acakArray([...bankSoal.sulit]);
     indeksSoalKategori = { mudah: 0, sedang: 0, sulit: 0 };
 
-    // Tampilkan kembali layar pembuka ke posisi depan (Loading Mode) saat game over
     const layarMulai = document.getElementById("layar-mulai");
     const btnUtama = document.getElementById("btn-pemicu-utama");
     if (layarMulai && btnUtama) {
@@ -398,10 +409,10 @@ function resetGame() {
     putarSuara("begin.mp3", false, 0.8);
     
     setTimeout(() => {
-        if (layarMulai) layarMulai.style.display = "none"; // Hilangkan loading screen, buka kuis
+        if (layarMulai) layarMulai.style.display = "none"; 
         muatSoalBaru();
     }, 4000);
 }
 
-// Jalankan loading database di background dari awal membuka web
+// Ambil database JSON di awal permainan
 ambilDataSoal();
